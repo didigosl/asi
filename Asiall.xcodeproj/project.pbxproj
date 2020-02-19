@@ -1,0 +1,1652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8201457522A92E0D008C78E2 /* GECChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201457422A92E0D008C78E2 /* GECChangePasswordViewController.swift */; };
+		8201457722A92FE7008C78E2 /* GECChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8201457622A92FE7008C78E2 /* GECChangePasswordViewController.xib */; };
+		8201457D22A93AE2008C78E2 /* GECPaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201457C22A93AE2008C78E2 /* GECPaddingTextField.swift */; };
+		8202CDFF21EA3ED500233600 /* GECProfileAboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CDFD21EA3ED500233600 /* GECProfileAboutUsController.swift */; };
+		8202CE0021EA3ED500233600 /* GECProfileAboutUsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202CDFE21EA3ED500233600 /* GECProfileAboutUsController.xib */; };
+		8202CE0321EA498800233600 /* GECAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE0121EA498800233600 /* GECAddressCell.swift */; };
+		8202CE0421EA498800233600 /* GECAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202CE0221EA498800233600 /* GECAddressCell.xib */; };
+		8202CE0621EA535D00233600 /* GECProfileAddressController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202CE0521EA535D00233600 /* GECProfileAddressController.xib */; };
+		8202CE0A21EA55E600233600 /* GECGestionDirectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE0821EA55E600233600 /* GECGestionDirectController.swift */; };
+		8202CE0B21EA55E600233600 /* GECGestionDirectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202CE0921EA55E600233600 /* GECGestionDirectController.xib */; };
+		8202CE1321EA6EAB00233600 /* UIImage-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE1221EA6EAA00233600 /* UIImage-Extension.swift */; };
+		8202CE1521EA6EC200233600 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE1421EA6EC200233600 /* LocationManager.swift */; };
+		8202CE1921EA751900233600 /* GECAddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE1821EA751900233600 /* GECAddressModel.swift */; };
+		8202CE2221EB1CAE00233600 /* JS_TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE1B21EB1CAE00233600 /* JS_TitleView.swift */; };
+		8202CE2321EB1CAE00233600 /* JSPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE1D21EB1CAE00233600 /* JSPageCollectionView.swift */; };
+		8202CE2421EB1CAE00233600 /* JSPageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE1E21EB1CAE00233600 /* JSPageFlowLayout.swift */; };
+		8202CE2521EB1CAE00233600 /* JSPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE1F21EB1CAE00233600 /* JSPageView.swift */; };
+		8202CE2621EB1CAE00233600 /* JSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE2021EB1CAE00233600 /* JSContentView.swift */; };
+		8202CE2721EB1CAE00233600 /* JS_PageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE2121EB1CAE00233600 /* JS_PageStyle.swift */; };
+		8202CE2C21EB1E7F00233600 /* GECCurrentOrdersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE2B21EB1E7F00233600 /* GECCurrentOrdersController.swift */; };
+		8202CE2E21EB1E9400233600 /* GECFinishedOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE2D21EB1E9400233600 /* GECFinishedOrderController.swift */; };
+		8202CE3021EB1EAB00233600 /* GECCanceledOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE2F21EB1EAB00233600 /* GECCanceledOrderController.swift */; };
+		8202CE3221EB22CD00233600 /* GECProfileOrderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202CE3121EB22CD00233600 /* GECProfileOrderController.xib */; };
+		8202CE3621EB3BBB00233600 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE3521EB3BBB00233600 /* UIView-Extension.swift */; };
+		8202CE3921EB3FD100233600 /* GECPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE3821EB3FD100233600 /* GECPlaceholderView.swift */; };
+		8202CE3B21EB3FDE00233600 /* GECPlaceholderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202CE3A21EB3FDD00233600 /* GECPlaceholderView.xib */; };
+		8202CE3E21EB46CA00233600 /* GECProfileOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202CE3C21EB46CA00233600 /* GECProfileOrderCell.swift */; };
+		8202CE3F21EB46CA00233600 /* GECProfileOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202CE3D21EB46CA00233600 /* GECProfileOrderCell.xib */; };
+		82047B1F22A67C3C00315BD1 /* GECRestaurantFollowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82047B1E22A67C3C00315BD1 /* GECRestaurantFollowModel.swift */; };
+		8207A36723A0FEAE00A5EFA6 /* JS_CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207A36623A0FEAE00A5EFA6 /* JS_CollectionViewFlowLayout.swift */; };
+		820F199521F8AC3100916246 /* GECDishesDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F199321F8AC3100916246 /* GECDishesDetailController.swift */; };
+		820F199621F8AC3100916246 /* GECDishesDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820F199421F8AC3100916246 /* GECDishesDetailController.xib */; };
+		821D005522C36D84001D5B2D /* GECScanDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D005422C36D84001D5B2D /* GECScanDrawView.swift */; };
+		8222DFEE2238181A00330968 /* GECLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8222DFED2238181A00330968 /* GECLoginModel.swift */; };
+		8222DFF02239373900330968 /* GECUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8222DFEF2239373900330968 /* GECUserInfoModel.swift */; };
+		8222DFF222394BAF00330968 /* UIImageView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8222DFF122394BAF00330968 /* UIImageView-Extension.swift */; };
+		82254E7822366E73006B6B1B /* GECApis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82254E7722366E73006B6B1B /* GECApis.swift */; };
+		82254E7D22367254006B6B1B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82254E7C22367254006B6B1B /* Networking.swift */; };
+		8228B07B22AAB96800394577 /* GECRestaurantDishesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228B07A22AAB96800394577 /* GECRestaurantDishesList.swift */; };
+		82332E4222B29D9E005E09AE /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82332E4122B29D9E005E09AE /* GlobalFunctions.swift */; };
+		82332E4422B2B1AF005E09AE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82332E4322B2B1AF005E09AE /* NavigationController.swift */; };
+		823C7C3D2322A8DB00D79E19 /* GECRestaurantSelectionMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C7C3C2322A8DB00D79E19 /* GECRestaurantSelectionMenuViewController.swift */; };
+		823C7C402322A93500D79E19 /* GECRestaurantMenuSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C7C3E2322A93500D79E19 /* GECRestaurantMenuSelectionCell.swift */; };
+		823C7C412322A93500D79E19 /* GECRestaurantMenuSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823C7C3F2322A93500D79E19 /* GECRestaurantMenuSelectionCell.xib */; };
+		823C7C432322AA2B00D79E19 /* GECRestaurantMenuSelectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C7C422322AA2B00D79E19 /* GECRestaurantMenuSelectionHeaderView.swift */; };
+		82443BA2232547CB00E3798A /* GECPreCartDisheHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82443BA1232547CB00E3798A /* GECPreCartDisheHeaderView.swift */; };
+		82443BA4232547DD00E3798A /* GECPreCartDisheHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82443BA3232547DD00E3798A /* GECPreCartDisheHeaderView.xib */; };
+		8251F31522B4EA3D0048B75A /* GECWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251F31322B4EA3D0048B75A /* GECWelcomeViewController.swift */; };
+		8251F31622B4EA3D0048B75A /* GECWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8251F31422B4EA3D0048B75A /* GECWelcomeViewController.xib */; };
+		82626FFE21EE055F0062A340 /* GECCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82626FFC21EE055F0062A340 /* GECCartViewController.swift */; };
+		82626FFF21EE055F0062A340 /* GECCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82626FFD21EE055F0062A340 /* GECCartViewController.xib */; };
+		8262700421EE3DB30062A340 /* GECCartDishesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262700221EE3DB30062A340 /* GECCartDishesCell.swift */; };
+		8262700521EE3DB30062A340 /* GECCartDishesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262700321EE3DB30062A340 /* GECCartDishesCell.xib */; };
+		8262700721EE43950062A340 /* GECCartFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262700621EE43950062A340 /* GECCartFooterView.xib */; };
+		8262700921EE47150062A340 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262700821EE47150062A340 /* PlaceholderTextView.swift */; };
+		8262700B21EE4AFE0062A340 /* GECCartFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262700A21EE4AFE0062A340 /* GECCartFooterView.swift */; };
+		8262700F21EE86780062A340 /* GECDetailOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262700E21EE86780062A340 /* GECDetailOrderController.swift */; };
+		8262701221EF3ACB0062A340 /* GECOrderDishesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262701021EF3ACB0062A340 /* GECOrderDishesCell.swift */; };
+		8262701321EF3ACB0062A340 /* GECOrderDishesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262701121EF3ACB0062A340 /* GECOrderDishesCell.xib */; };
+		8262701521EF3F050062A340 /* GECOrderHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262701421EF3F050062A340 /* GECOrderHeaderCell.xib */; };
+		8262701721EF3F190062A340 /* GECOrderFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262701621EF3F190062A340 /* GECOrderFooterCell.xib */; };
+		8262701921EF4E610062A340 /* GECOrderDeviveryInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262701821EF4E610062A340 /* GECOrderDeviveryInfoView.xib */; };
+		8262701B21EF4E8F0062A340 /* GECOrderInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262701A21EF4E8F0062A340 /* GECOrderInfoView.xib */; };
+		8262701D21EF618C0062A340 /* GECOrderDeviveryInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262701C21EF618C0062A340 /* GECOrderDeviveryInfoView.swift */; };
+		8262701F21EF61EF0062A340 /* GECOrderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262701E21EF61EF0062A340 /* GECOrderInfoView.swift */; };
+		8262702121EF634A0062A340 /* GECOrderFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262702021EF634A0062A340 /* GECOrderFooterCell.swift */; };
+		826E2A7F22E9C9C8003FDC9D /* GECTakeInDishesCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E2A7E22E9C9C8003FDC9D /* GECTakeInDishesCartModel.swift */; };
+		826E2A8122EA0FAE003FDC9D /* SocketSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E2A8022EA0FAE003FDC9D /* SocketSingleton.swift */; };
+		82717B1F21EF64AD00521ABE /* GECOrderHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82717B1E21EF64AD00521ABE /* GECOrderHeaderCell.swift */; };
+		82717B2521EF7B2000521ABE /* GECDetailOrderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82717B2421EF7B2000521ABE /* GECDetailOrderController.xib */; };
+		8271C30122B3D54600531F97 /* UITextField-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271C2FF22B3D54600531F97 /* UITextField-Extension.swift */; };
+		8271C30222B3D54600531F97 /* Double-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271C30022B3D54600531F97 /* Double-Extension.swift */; };
+		8271C30522B3DF4800531F97 /* restaurantLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8271C30422B3DF4800531F97 /* restaurantLoading.json */; };
+		8271C30722B3E0C200531F97 /* LottieAnimation-Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271C30622B3E0C200531F97 /* LottieAnimation-Ex.swift */; };
+		8273834822CFB879003A877C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8273834A22CFB879003A877C /* Localizable.strings */; };
+		8273834D22CFD417003A877C /* GECLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8273834F22CFD417003A877C /* GECLoginViewController.xib */; };
+		8278EB2421FA0A0900B58FD5 /* GECPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278EB2221FA0A0900B58FD5 /* GECPlayerController.swift */; };
+		8278FB8722B0F40500F2E6FF /* GECStorePayMethodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278FB8622B0F40500F2E6FF /* GECStorePayMethodList.swift */; };
+		8278FB8922B11A6600F2E6FF /* GECTakeAwayOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278FB8822B11A6600F2E6FF /* GECTakeAwayOrderModel.swift */; };
+		8278FB8E22B1391B00F2E6FF /* JS_AlertBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278FB8D22B1391B00F2E6FF /* JS_AlertBaseView.swift */; };
+		8278FB9022B139D600F2E6FF /* JS_AlertDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278FB8F22B139D600F2E6FF /* JS_AlertDatePickerView.swift */; };
+		827D356822A7FC43005A3E4C /* GECProfileInfoInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D356722A7FC43005A3E4C /* GECProfileInfoInputView.swift */; };
+		8281534E2306A2E7004998FE /* GECCommonHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281534D2306A2E7004998FE /* GECCommonHubView.swift */; };
+		828EA5CE23095AFB0003E922 /* GECHomeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828EA5CC23095AFB0003E922 /* GECHomeSearchViewController.swift */; };
+		828EA5CF23095AFB0003E922 /* GECHomeSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828EA5CD23095AFB0003E922 /* GECHomeSearchViewController.xib */; };
+		828EA5D423096A860003E922 /* GECDishesDetailImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828EA5D223096A860003E922 /* GECDishesDetailImageViewCell.swift */; };
+		828EA5D523096A870003E922 /* GECDishesDetailImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828EA5D323096A860003E922 /* GECDishesDetailImageViewCell.xib */; };
+		828EA5D823096B170003E922 /* GECDishesDetailInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828EA5D623096B170003E922 /* GECDishesDetailInfoCell.swift */; };
+		828EA5D923096B170003E922 /* GECDishesDetailInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828EA5D723096B170003E922 /* GECDishesDetailInfoCell.xib */; };
+		828EA5DC23096DBB0003E922 /* GECDishesDetailAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828EA5DA23096DBB0003E922 /* GECDishesDetailAttributeCell.swift */; };
+		828EA5DD23096DBB0003E922 /* GECDishesDetailAttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828EA5DB23096DBB0003E922 /* GECDishesDetailAttributeCell.xib */; };
+		828FF3DA22A526D5008A7382 /* GECRestaurantStoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FF3D922A526D5008A7382 /* GECRestaurantStoreModel.swift */; };
+		828FF3DC22A52B83008A7382 /* GECHomeSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FF3DB22A52B83008A7382 /* GECHomeSearchResultsViewController.swift */; };
+		828FF3E022A56E46008A7382 /* GECHomeSearchRestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FF3DE22A56E46008A7382 /* GECHomeSearchRestaurantCell.swift */; };
+		828FF3E122A56E46008A7382 /* GECHomeSearchRestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828FF3DF22A56E46008A7382 /* GECHomeSearchRestaurantCell.xib */; };
+		829337A421E76AE1008F0801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337A321E76AE1008F0801 /* AppDelegate.swift */; };
+		829337AB21E76AE3008F0801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829337AA21E76AE3008F0801 /* Assets.xcassets */; };
+		829337C121E7746F008F0801 /* GECTableBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337C021E7746F008F0801 /* GECTableBarController.swift */; };
+		829337C821E777BD008F0801 /* GlobalKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337C721E777BD008F0801 /* GlobalKeys.swift */; };
+		829337E021E77B5F008F0801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829337DF21E77B5F008F0801 /* LaunchScreen.storyboard */; };
+		829337E521E78999008F0801 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337E421E78999008F0801 /* Colors.swift */; };
+		829337E721E789FE008F0801 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337E621E789FE008F0801 /* UIColor-Extension.swift */; };
+		829337E921E79207008F0801 /* GECNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337E821E79207008F0801 /* GECNavigationController.swift */; };
+		829337EB21E792C6008F0801 /* GlobalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337EA21E792C6008F0801 /* GlobalFrame.swift */; };
+		829337F121E7AF6C008F0801 /* GECScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337EF21E7AF6C008F0801 /* GECScanViewController.swift */; };
+		829337F221E7AF6C008F0801 /* GECScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829337F021E7AF6C008F0801 /* GECScanViewController.xib */; };
+		829337F421E7E2DF008F0801 /* GECTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337F321E7E2DF008F0801 /* GECTabBar.swift */; };
+		829337F621E7E7C3008F0801 /* GECMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337F521E7E7C3008F0801 /* GECMainViewModel.swift */; };
+		829337F921E7ED35008F0801 /* GECHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337F721E7ED35008F0801 /* GECHomeViewController.swift */; };
+		829337FA21E7ED35008F0801 /* GECHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829337F821E7ED35008F0801 /* GECHomeViewController.xib */; };
+		829337FD21E8A155008F0801 /* GECHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829337FC21E8A155008F0801 /* GECHomeViewModel.swift */; };
+		8293380221E8A3FB008F0801 /* GECRestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293380021E8A3FB008F0801 /* GECRestaurantCell.swift */; };
+		8293380321E8A3FB008F0801 /* GECRestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293380121E8A3FB008F0801 /* GECRestaurantCell.xib */; };
+		8293380621E8D8C5008F0801 /* GECProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293380421E8D8C5008F0801 /* GECProfileViewController.swift */; };
+		8293380721E8D8C5008F0801 /* GECProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293380521E8D8C5008F0801 /* GECProfileViewController.xib */; };
+		8293380A21E8E4F8008F0801 /* GECProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293380921E8E4F8008F0801 /* GECProfileViewModel.swift */; };
+		8293380F21E8E7E9008F0801 /* GECProfileSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293380D21E8E7E9008F0801 /* GECProfileSettingCell.swift */; };
+		8293381021E8E7E9008F0801 /* GECProfileSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293380E21E8E7E9008F0801 /* GECProfileSettingCell.xib */; };
+		8293381921E9022D008F0801 /* GECProfileOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293381821E9022D008F0801 /* GECProfileOrderController.swift */; };
+		8293381D21E9025C008F0801 /* GECProfileAddressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293381C21E9025B008F0801 /* GECProfileAddressController.swift */; };
+		8293382221E9D7D0008F0801 /* GECProfileInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293382021E9D7D0008F0801 /* GECProfileInfoController.swift */; };
+		8293382821EA0A65008F0801 /* GECProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293382621EA0A65008F0801 /* GECProfileInfoCell.swift */; };
+		8293382921EA0A65008F0801 /* GECProfileInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293382721EA0A65008F0801 /* GECProfileInfoCell.xib */; };
+		829E160323AD3DB200AEC8B4 /* GECCustomBusinessCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E15FA23AD3DB100AEC8B4 /* GECCustomBusinessCollectionCell.swift */; };
+		829E160423AD3DB200AEC8B4 /* GECCustomBusinessCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829E15FB23AD3DB100AEC8B4 /* GECCustomBusinessCollectionCell.xib */; };
+		829E160523AD3DB200AEC8B4 /* GECCustomBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E15FC23AD3DB100AEC8B4 /* GECCustomBusinessView.swift */; };
+		829E160623AD3DB200AEC8B4 /* GECCustomHomeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E15FD23AD3DB100AEC8B4 /* GECCustomHomeTitleView.swift */; };
+		829E160723AD3DB200AEC8B4 /* GECCustomHomeTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829E15FE23AD3DB100AEC8B4 /* GECCustomHomeTitleView.xib */; };
+		829E160823AD3DB200AEC8B4 /* GECCustomSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E15FF23AD3DB100AEC8B4 /* GECCustomSearchView.swift */; };
+		829E160923AD3DB200AEC8B4 /* GECCustomSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829E160023AD3DB100AEC8B4 /* GECCustomSearchView.xib */; };
+		829E160A23AD3DB200AEC8B4 /* GECMainHomeRestaurantTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E160123AD3DB100AEC8B4 /* GECMainHomeRestaurantTableCell.swift */; };
+		829E160B23AD3DB200AEC8B4 /* GECMainHomeRestaurantTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829E160223AD3DB100AEC8B4 /* GECMainHomeRestaurantTableCell.xib */; };
+		829E160D23AD3DCA00AEC8B4 /* GECMainHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E160C23AD3DCA00AEC8B4 /* GECMainHomeViewController.swift */; };
+		829E160F23AD3E7E00AEC8B4 /* GECRestaurantBusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E160E23AD3E7D00AEC8B4 /* GECRestaurantBusinessList.swift */; };
+		82A07D4821EB865C0058068B /* GECProfileCreditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D4621EB865C0058068B /* GECProfileCreditController.swift */; };
+		82A07D4921EB865C0058068B /* GECProfileCreditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A07D4721EB865C0058068B /* GECProfileCreditController.xib */; };
+		82A07D4C21EB88840058068B /* GECProfileCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D4A21EB88840058068B /* GECProfileCardCell.swift */; };
+		82A07D4D21EB88840058068B /* GECProfileCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A07D4B21EB88840058068B /* GECProfileCardCell.xib */; };
+		82A07D5121EB8E0C0058068B /* GECNewCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D4F21EB8E0C0058068B /* GECNewCardController.swift */; };
+		82A07D5221EB8E0C0058068B /* GECNewCardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A07D5021EB8E0C0058068B /* GECNewCardController.xib */; };
+		82A07D5421EBF3590058068B /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D5321EBF3590058068B /* String-Extension.swift */; };
+		82A07D5821ECC0E00058068B /* GECRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D5621ECC0E00058068B /* GECRestaurantController.swift */; };
+		82A07D5921ECC0E00058068B /* GECRestaurantController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A07D5721ECC0E00058068B /* GECRestaurantController.xib */; };
+		82A07D5B21ECC19B0058068B /* GlobalDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D5A21ECC19B0058068B /* GlobalDefine.swift */; };
+		82A07D5F21ECCB340058068B /* GECRestaurantSimpleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A07D5E21ECCB340058068B /* GECRestaurantSimpleView.xib */; };
+		82A07D6121ECCE510058068B /* GlobalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D6021ECCE510058068B /* GlobalString.swift */; };
+		82A07D6321ECD5040058068B /* GECRestaurantSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D6221ECD5040058068B /* GECRestaurantSimpleView.swift */; };
+		82A07D6721ECF11A0058068B /* GECRestaurantDishesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A07D6521ECF11A0058068B /* GECRestaurantDishesCell.swift */; };
+		82A07D6821ECF11A0058068B /* GECRestaurantDishesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A07D6621ECF11A0058068B /* GECRestaurantDishesCell.xib */; };
+		82A090F022D216C30015AFC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A090F222D216C30015AFC9 /* InfoPlist.strings */; };
+		82A41ACF21EF92AB00FD9579 /* AlertAction-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A41ACE21EF92AB00FD9579 /* AlertAction-Extension.swift */; };
+		82A41AD221EF93E700FD9579 /* GECRestaurantDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A41AD021EF93E700FD9579 /* GECRestaurantDetailController.swift */; };
+		82A41AD321EF93E700FD9579 /* GECRestaurantDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A41AD121EF93E700FD9579 /* GECRestaurantDetailController.xib */; };
+		82A41AD621EFD1F500FD9579 /* GECRestaurantImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A41AD421EFD1F500FD9579 /* GECRestaurantImageCell.swift */; };
+		82A41AD721EFD1F500FD9579 /* GECRestaurantImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A41AD521EFD1F500FD9579 /* GECRestaurantImageCell.xib */; };
+		82A41ADB21EFD37A00FD9579 /* GECLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A41AD921EFD37A00FD9579 /* GECLoginViewController.swift */; };
+		82AB172C230AC95F0045022B /* GECTakeInWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AB172A230AC95F0045022B /* GECTakeInWebViewController.swift */; };
+		82AB172D230AC95F0045022B /* GECTakeInWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AB172B230AC95F0045022B /* GECTakeInWebViewController.xib */; };
+		82B57B0422E8E8CB0043BC22 /* GECTakeInOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B57B0322E8E8CB0043BC22 /* GECTakeInOrderViewController.swift */; };
+		82B57B0722E8ED9E0043BC22 /* GECTakeInOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B57B0522E8ED9E0043BC22 /* GECTakeInOrderCell.swift */; };
+		82B57B0822E8ED9E0043BC22 /* GECTakeInOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B57B0622E8ED9E0043BC22 /* GECTakeInOrderCell.xib */; };
+		82BE6E66232B8E400068FB2F /* QRCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BE6E65232B8E400068FB2F /* QRCodeTool.swift */; };
+		82C9F48122AD24910022A515 /* GECCartPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9F48022AD24910022A515 /* GECCartPriceModel.swift */; };
+		82C9F48322AD573F0022A515 /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9F48222AD573F0022A515 /* ErrorCode.swift */; };
+		82C9F48822AD69860022A515 /* GECPreCartDishesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9F48622AD69860022A515 /* GECPreCartDishesCell.swift */; };
+		82C9F48922AD69860022A515 /* GECPreCartDishesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C9F48722AD69860022A515 /* GECPreCartDishesCell.xib */; };
+		82D3269622E857A600D1C132 /* GECTakeInCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D3269422E857A600D1C132 /* GECTakeInCartViewController.swift */; };
+		82D3269722E857A600D1C132 /* GECTakeInCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D3269522E857A600D1C132 /* GECTakeInCartViewController.xib */; };
+		82D3269A22E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D3269822E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.swift */; };
+		82D3269B22E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D3269922E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.xib */; };
+		82D3269D22E8670900D1C132 /* GECTakeInCartFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D3269C22E8670900D1C132 /* GECTakeInCartFooterView.swift */; };
+		82D3269F22E8671700D1C132 /* GECTakeInCartFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D3269E22E8671700D1C132 /* GECTakeInCartFooterView.xib */; };
+		82D5CE3422CF6F4800999C4B /* GECDocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D5CE3322CF6F4800999C4B /* GECDocumentModel.swift */; };
+		82D5CE3622CF7F9A00999C4B /* GECDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D5CE3522CF7F9A00999C4B /* GECDocumentViewController.swift */; };
+		82D89C4522B8F1AF00B71C01 /* GECOrderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D89C4422B8F1AF00B71C01 /* GECOrderListModel.swift */; };
+		82D89C4722B90B6C00B71C01 /* GECBasicOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D89C4622B90B6C00B71C01 /* GECBasicOrderViewController.swift */; };
+		CAB281C9E3C6F132BA7EEB41 /* Pods_Asiall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CBD037693703BEDED9D979 /* Pods_Asiall.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20B7E00EA111B558F845E97D /* Pods-G-eatClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G-eatClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-G-eatClient/Pods-G-eatClient.release.xcconfig"; sourceTree = "<group>"; };
+		22627185E795275436D6F773 /* Pods-Asiall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asiall.release.xcconfig"; path = "Pods/Target Support Files/Pods-Asiall/Pods-Asiall.release.xcconfig"; sourceTree = "<group>"; };
+		2E9419D7ACCCD9F57B63E0C0 /* Pods-Asiall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asiall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Asiall/Pods-Asiall.debug.xcconfig"; sourceTree = "<group>"; };
+		50FDEB946649BA72531B911A /* Pods-G-eatClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G-eatClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G-eatClient/Pods-G-eatClient.debug.xcconfig"; sourceTree = "<group>"; };
+		8201457422A92E0D008C78E2 /* GECChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECChangePasswordViewController.swift; sourceTree = "<group>"; };
+		8201457622A92FE7008C78E2 /* GECChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECChangePasswordViewController.xib; sourceTree = "<group>"; };
+		8201457C22A93AE2008C78E2 /* GECPaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECPaddingTextField.swift; sourceTree = "<group>"; };
+		8202CDFD21EA3ED500233600 /* GECProfileAboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileAboutUsController.swift; sourceTree = "<group>"; };
+		8202CDFE21EA3ED500233600 /* GECProfileAboutUsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileAboutUsController.xib; sourceTree = "<group>"; };
+		8202CE0121EA498800233600 /* GECAddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECAddressCell.swift; sourceTree = "<group>"; };
+		8202CE0221EA498800233600 /* GECAddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECAddressCell.xib; sourceTree = "<group>"; };
+		8202CE0521EA535D00233600 /* GECProfileAddressController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileAddressController.xib; sourceTree = "<group>"; };
+		8202CE0821EA55E600233600 /* GECGestionDirectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECGestionDirectController.swift; sourceTree = "<group>"; };
+		8202CE0921EA55E600233600 /* GECGestionDirectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECGestionDirectController.xib; sourceTree = "<group>"; };
+		8202CE1221EA6EAA00233600 /* UIImage-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
+		8202CE1421EA6EC200233600 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8202CE1821EA751900233600 /* GECAddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECAddressModel.swift; sourceTree = "<group>"; };
+		8202CE1B21EB1CAE00233600 /* JS_TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_TitleView.swift; sourceTree = "<group>"; };
+		8202CE1D21EB1CAE00233600 /* JSPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSPageCollectionView.swift; sourceTree = "<group>"; };
+		8202CE1E21EB1CAE00233600 /* JSPageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSPageFlowLayout.swift; sourceTree = "<group>"; };
+		8202CE1F21EB1CAE00233600 /* JSPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSPageView.swift; sourceTree = "<group>"; };
+		8202CE2021EB1CAE00233600 /* JSContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSContentView.swift; sourceTree = "<group>"; };
+		8202CE2121EB1CAE00233600 /* JS_PageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JS_PageStyle.swift; sourceTree = "<group>"; };
+		8202CE2B21EB1E7F00233600 /* GECCurrentOrdersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECCurrentOrdersController.swift; sourceTree = "<group>"; };
+		8202CE2D21EB1E9400233600 /* GECFinishedOrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECFinishedOrderController.swift; sourceTree = "<group>"; };
+		8202CE2F21EB1EAB00233600 /* GECCanceledOrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECCanceledOrderController.swift; sourceTree = "<group>"; };
+		8202CE3121EB22CD00233600 /* GECProfileOrderController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileOrderController.xib; sourceTree = "<group>"; };
+		8202CE3521EB3BBB00233600 /* UIView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		8202CE3821EB3FD100233600 /* GECPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECPlaceholderView.swift; sourceTree = "<group>"; };
+		8202CE3A21EB3FDD00233600 /* GECPlaceholderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECPlaceholderView.xib; sourceTree = "<group>"; };
+		8202CE3C21EB46CA00233600 /* GECProfileOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileOrderCell.swift; sourceTree = "<group>"; };
+		8202CE3D21EB46CA00233600 /* GECProfileOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileOrderCell.xib; sourceTree = "<group>"; };
+		82047B1E22A67C3C00315BD1 /* GECRestaurantFollowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantFollowModel.swift; sourceTree = "<group>"; };
+		8207A36623A0FEAE00A5EFA6 /* JS_CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JS_CollectionViewFlowLayout.swift; path = Asiall/JS_CollectionViewFlowLayout.swift; sourceTree = SOURCE_ROOT; };
+		820F199321F8AC3100916246 /* GECDishesDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECDishesDetailController.swift; sourceTree = "<group>"; };
+		820F199421F8AC3100916246 /* GECDishesDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECDishesDetailController.xib; sourceTree = "<group>"; };
+		821D005422C36D84001D5B2D /* GECScanDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECScanDrawView.swift; sourceTree = "<group>"; };
+		8222DFED2238181A00330968 /* GECLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECLoginModel.swift; sourceTree = "<group>"; };
+		8222DFEF2239373900330968 /* GECUserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECUserInfoModel.swift; sourceTree = "<group>"; };
+		8222DFF122394BAF00330968 /* UIImageView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView-Extension.swift"; sourceTree = "<group>"; };
+		82254E7722366E73006B6B1B /* GECApis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECApis.swift; sourceTree = "<group>"; };
+		82254E7C22367254006B6B1B /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		8228B07A22AAB96800394577 /* GECRestaurantDishesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantDishesList.swift; sourceTree = "<group>"; };
+		82332E4122B29D9E005E09AE /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		82332E4322B2B1AF005E09AE /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		823C7C3C2322A8DB00D79E19 /* GECRestaurantSelectionMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantSelectionMenuViewController.swift; sourceTree = "<group>"; };
+		823C7C3E2322A93500D79E19 /* GECRestaurantMenuSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantMenuSelectionCell.swift; sourceTree = "<group>"; };
+		823C7C3F2322A93500D79E19 /* GECRestaurantMenuSelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECRestaurantMenuSelectionCell.xib; sourceTree = "<group>"; };
+		823C7C422322AA2B00D79E19 /* GECRestaurantMenuSelectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantMenuSelectionHeaderView.swift; sourceTree = "<group>"; };
+		82443BA1232547CB00E3798A /* GECPreCartDisheHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECPreCartDisheHeaderView.swift; sourceTree = "<group>"; };
+		82443BA3232547DD00E3798A /* GECPreCartDisheHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECPreCartDisheHeaderView.xib; sourceTree = "<group>"; };
+		8251F31322B4EA3D0048B75A /* GECWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECWelcomeViewController.swift; sourceTree = "<group>"; };
+		8251F31422B4EA3D0048B75A /* GECWelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECWelcomeViewController.xib; sourceTree = "<group>"; };
+		82626FFC21EE055F0062A340 /* GECCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECCartViewController.swift; sourceTree = "<group>"; };
+		82626FFD21EE055F0062A340 /* GECCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECCartViewController.xib; sourceTree = "<group>"; };
+		8262700221EE3DB30062A340 /* GECCartDishesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECCartDishesCell.swift; sourceTree = "<group>"; };
+		8262700321EE3DB30062A340 /* GECCartDishesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECCartDishesCell.xib; sourceTree = "<group>"; };
+		8262700621EE43950062A340 /* GECCartFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECCartFooterView.xib; sourceTree = "<group>"; };
+		8262700821EE47150062A340 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		8262700A21EE4AFE0062A340 /* GECCartFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECCartFooterView.swift; sourceTree = "<group>"; };
+		8262700E21EE86780062A340 /* GECDetailOrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECDetailOrderController.swift; sourceTree = "<group>"; };
+		8262701021EF3ACB0062A340 /* GECOrderDishesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECOrderDishesCell.swift; sourceTree = "<group>"; };
+		8262701121EF3ACB0062A340 /* GECOrderDishesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECOrderDishesCell.xib; sourceTree = "<group>"; };
+		8262701421EF3F050062A340 /* GECOrderHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECOrderHeaderCell.xib; sourceTree = "<group>"; };
+		8262701621EF3F190062A340 /* GECOrderFooterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECOrderFooterCell.xib; sourceTree = "<group>"; };
+		8262701821EF4E610062A340 /* GECOrderDeviveryInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECOrderDeviveryInfoView.xib; sourceTree = "<group>"; };
+		8262701A21EF4E8F0062A340 /* GECOrderInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECOrderInfoView.xib; sourceTree = "<group>"; };
+		8262701C21EF618C0062A340 /* GECOrderDeviveryInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECOrderDeviveryInfoView.swift; sourceTree = "<group>"; };
+		8262701E21EF61EF0062A340 /* GECOrderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECOrderInfoView.swift; sourceTree = "<group>"; };
+		8262702021EF634A0062A340 /* GECOrderFooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECOrderFooterCell.swift; sourceTree = "<group>"; };
+		826E2A7E22E9C9C8003FDC9D /* GECTakeInDishesCartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeInDishesCartModel.swift; sourceTree = "<group>"; };
+		826E2A8022EA0FAE003FDC9D /* SocketSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketSingleton.swift; sourceTree = "<group>"; };
+		82717B1E21EF64AD00521ABE /* GECOrderHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECOrderHeaderCell.swift; sourceTree = "<group>"; };
+		82717B2421EF7B2000521ABE /* GECDetailOrderController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECDetailOrderController.xib; sourceTree = "<group>"; };
+		8271C2FF22B3D54600531F97 /* UITextField-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField-Extension.swift"; sourceTree = "<group>"; };
+		8271C30022B3D54600531F97 /* Double-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double-Extension.swift"; sourceTree = "<group>"; };
+		8271C30422B3DF4800531F97 /* restaurantLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurantLoading.json; sourceTree = "<group>"; };
+		8271C30622B3E0C200531F97 /* LottieAnimation-Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LottieAnimation-Ex.swift"; sourceTree = "<group>"; };
+		8273834922CFB879003A877C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8273834B22CFB87B003A877C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8273834C22CFB87C003A877C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8273834E22CFD417003A877C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GECLoginViewController.xib; sourceTree = "<group>"; };
+		8273835322CFD42D003A877C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/GECLoginViewController.strings"; sourceTree = "<group>"; };
+		8273835522CFD42E003A877C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/GECLoginViewController.strings; sourceTree = "<group>"; };
+		8273835722CFD70C003A877C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GECLoginViewController.strings; sourceTree = "<group>"; };
+		8278EB2221FA0A0900B58FD5 /* GECPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECPlayerController.swift; sourceTree = "<group>"; };
+		8278FB8622B0F40500F2E6FF /* GECStorePayMethodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECStorePayMethodList.swift; sourceTree = "<group>"; };
+		8278FB8822B11A6600F2E6FF /* GECTakeAwayOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeAwayOrderModel.swift; sourceTree = "<group>"; };
+		8278FB8D22B1391B00F2E6FF /* JS_AlertBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JS_AlertBaseView.swift; sourceTree = "<group>"; };
+		8278FB8F22B139D600F2E6FF /* JS_AlertDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JS_AlertDatePickerView.swift; sourceTree = "<group>"; };
+		827D356722A7FC43005A3E4C /* GECProfileInfoInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileInfoInputView.swift; sourceTree = "<group>"; };
+		8281534D2306A2E7004998FE /* GECCommonHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECCommonHubView.swift; sourceTree = "<group>"; };
+		828EA5CC23095AFB0003E922 /* GECHomeSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECHomeSearchViewController.swift; sourceTree = "<group>"; };
+		828EA5CD23095AFB0003E922 /* GECHomeSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECHomeSearchViewController.xib; sourceTree = "<group>"; };
+		828EA5D223096A860003E922 /* GECDishesDetailImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECDishesDetailImageViewCell.swift; sourceTree = "<group>"; };
+		828EA5D323096A860003E922 /* GECDishesDetailImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECDishesDetailImageViewCell.xib; sourceTree = "<group>"; };
+		828EA5D623096B170003E922 /* GECDishesDetailInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECDishesDetailInfoCell.swift; sourceTree = "<group>"; };
+		828EA5D723096B170003E922 /* GECDishesDetailInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECDishesDetailInfoCell.xib; sourceTree = "<group>"; };
+		828EA5DA23096DBB0003E922 /* GECDishesDetailAttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECDishesDetailAttributeCell.swift; sourceTree = "<group>"; };
+		828EA5DB23096DBB0003E922 /* GECDishesDetailAttributeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECDishesDetailAttributeCell.xib; sourceTree = "<group>"; };
+		828FF3D922A526D5008A7382 /* GECRestaurantStoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantStoreModel.swift; sourceTree = "<group>"; };
+		828FF3DB22A52B83008A7382 /* GECHomeSearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECHomeSearchResultsViewController.swift; sourceTree = "<group>"; };
+		828FF3DE22A56E46008A7382 /* GECHomeSearchRestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECHomeSearchRestaurantCell.swift; sourceTree = "<group>"; };
+		828FF3DF22A56E46008A7382 /* GECHomeSearchRestaurantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECHomeSearchRestaurantCell.xib; sourceTree = "<group>"; };
+		829337A021E76AE1008F0801 /* Asiall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asiall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829337A321E76AE1008F0801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../New Group/AppDelegate.swift"; sourceTree = "<group>"; };
+		829337AA21E76AE3008F0801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		829337AF21E76AE3008F0801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829337C021E7746F008F0801 /* GECTableBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTableBarController.swift; sourceTree = "<group>"; };
+		829337C721E777BD008F0801 /* GlobalKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalKeys.swift; sourceTree = "<group>"; };
+		829337DF21E77B5F008F0801 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		829337E421E78999008F0801 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		829337E621E789FE008F0801 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		829337E821E79207008F0801 /* GECNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECNavigationController.swift; sourceTree = "<group>"; };
+		829337EA21E792C6008F0801 /* GlobalFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFrame.swift; sourceTree = "<group>"; };
+		829337EF21E7AF6C008F0801 /* GECScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECScanViewController.swift; sourceTree = "<group>"; };
+		829337F021E7AF6C008F0801 /* GECScanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECScanViewController.xib; sourceTree = "<group>"; };
+		829337F321E7E2DF008F0801 /* GECTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTabBar.swift; sourceTree = "<group>"; };
+		829337F521E7E7C3008F0801 /* GECMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECMainViewModel.swift; sourceTree = "<group>"; };
+		829337F721E7ED35008F0801 /* GECHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECHomeViewController.swift; sourceTree = "<group>"; };
+		829337F821E7ED35008F0801 /* GECHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECHomeViewController.xib; sourceTree = "<group>"; };
+		829337FC21E8A155008F0801 /* GECHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECHomeViewModel.swift; sourceTree = "<group>"; };
+		8293380021E8A3FB008F0801 /* GECRestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantCell.swift; sourceTree = "<group>"; };
+		8293380121E8A3FB008F0801 /* GECRestaurantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECRestaurantCell.xib; sourceTree = "<group>"; };
+		8293380421E8D8C5008F0801 /* GECProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileViewController.swift; sourceTree = "<group>"; };
+		8293380521E8D8C5008F0801 /* GECProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileViewController.xib; sourceTree = "<group>"; };
+		8293380921E8E4F8008F0801 /* GECProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileViewModel.swift; sourceTree = "<group>"; };
+		8293380D21E8E7E9008F0801 /* GECProfileSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileSettingCell.swift; sourceTree = "<group>"; };
+		8293380E21E8E7E9008F0801 /* GECProfileSettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileSettingCell.xib; sourceTree = "<group>"; };
+		8293381821E9022D008F0801 /* GECProfileOrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileOrderController.swift; sourceTree = "<group>"; };
+		8293381C21E9025B008F0801 /* GECProfileAddressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileAddressController.swift; sourceTree = "<group>"; };
+		8293382021E9D7D0008F0801 /* GECProfileInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileInfoController.swift; sourceTree = "<group>"; };
+		8293382621EA0A65008F0801 /* GECProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileInfoCell.swift; sourceTree = "<group>"; };
+		8293382721EA0A65008F0801 /* GECProfileInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileInfoCell.xib; sourceTree = "<group>"; };
+		829E15FA23AD3DB100AEC8B4 /* GECCustomBusinessCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECCustomBusinessCollectionCell.swift; sourceTree = "<group>"; };
+		829E15FB23AD3DB100AEC8B4 /* GECCustomBusinessCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GECCustomBusinessCollectionCell.xib; sourceTree = "<group>"; };
+		829E15FC23AD3DB100AEC8B4 /* GECCustomBusinessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECCustomBusinessView.swift; sourceTree = "<group>"; };
+		829E15FD23AD3DB100AEC8B4 /* GECCustomHomeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECCustomHomeTitleView.swift; sourceTree = "<group>"; };
+		829E15FE23AD3DB100AEC8B4 /* GECCustomHomeTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GECCustomHomeTitleView.xib; sourceTree = "<group>"; };
+		829E15FF23AD3DB100AEC8B4 /* GECCustomSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECCustomSearchView.swift; sourceTree = "<group>"; };
+		829E160023AD3DB100AEC8B4 /* GECCustomSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GECCustomSearchView.xib; sourceTree = "<group>"; };
+		829E160123AD3DB100AEC8B4 /* GECMainHomeRestaurantTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECMainHomeRestaurantTableCell.swift; sourceTree = "<group>"; };
+		829E160223AD3DB100AEC8B4 /* GECMainHomeRestaurantTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GECMainHomeRestaurantTableCell.xib; sourceTree = "<group>"; };
+		829E160C23AD3DCA00AEC8B4 /* GECMainHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECMainHomeViewController.swift; sourceTree = "<group>"; };
+		829E160E23AD3E7D00AEC8B4 /* GECRestaurantBusinessList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECRestaurantBusinessList.swift; sourceTree = "<group>"; };
+		82A07D4621EB865C0058068B /* GECProfileCreditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileCreditController.swift; sourceTree = "<group>"; };
+		82A07D4721EB865C0058068B /* GECProfileCreditController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileCreditController.xib; sourceTree = "<group>"; };
+		82A07D4A21EB88840058068B /* GECProfileCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECProfileCardCell.swift; sourceTree = "<group>"; };
+		82A07D4B21EB88840058068B /* GECProfileCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECProfileCardCell.xib; sourceTree = "<group>"; };
+		82A07D4F21EB8E0C0058068B /* GECNewCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECNewCardController.swift; sourceTree = "<group>"; };
+		82A07D5021EB8E0C0058068B /* GECNewCardController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECNewCardController.xib; sourceTree = "<group>"; };
+		82A07D5321EBF3590058068B /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		82A07D5621ECC0E00058068B /* GECRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantController.swift; sourceTree = "<group>"; };
+		82A07D5721ECC0E00058068B /* GECRestaurantController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECRestaurantController.xib; sourceTree = "<group>"; };
+		82A07D5A21ECC19B0058068B /* GlobalDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDefine.swift; sourceTree = "<group>"; };
+		82A07D5E21ECCB340058068B /* GECRestaurantSimpleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECRestaurantSimpleView.xib; sourceTree = "<group>"; };
+		82A07D6021ECCE510058068B /* GlobalString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalString.swift; sourceTree = "<group>"; };
+		82A07D6221ECD5040058068B /* GECRestaurantSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantSimpleView.swift; sourceTree = "<group>"; };
+		82A07D6521ECF11A0058068B /* GECRestaurantDishesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantDishesCell.swift; sourceTree = "<group>"; };
+		82A07D6621ECF11A0058068B /* GECRestaurantDishesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECRestaurantDishesCell.xib; sourceTree = "<group>"; };
+		82A090F122D216C30015AFC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82A090F322D216C50015AFC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		82A090F422D216C70015AFC9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82A41ACE21EF92AB00FD9579 /* AlertAction-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertAction-Extension.swift"; sourceTree = "<group>"; };
+		82A41AD021EF93E700FD9579 /* GECRestaurantDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantDetailController.swift; sourceTree = "<group>"; };
+		82A41AD121EF93E700FD9579 /* GECRestaurantDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECRestaurantDetailController.xib; sourceTree = "<group>"; };
+		82A41AD421EFD1F500FD9579 /* GECRestaurantImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECRestaurantImageCell.swift; sourceTree = "<group>"; };
+		82A41AD521EFD1F500FD9579 /* GECRestaurantImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECRestaurantImageCell.xib; sourceTree = "<group>"; };
+		82A41AD921EFD37A00FD9579 /* GECLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECLoginViewController.swift; sourceTree = "<group>"; };
+		82AB172A230AC95F0045022B /* GECTakeInWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeInWebViewController.swift; sourceTree = "<group>"; };
+		82AB172B230AC95F0045022B /* GECTakeInWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECTakeInWebViewController.xib; sourceTree = "<group>"; };
+		82B57B0322E8E8CB0043BC22 /* GECTakeInOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeInOrderViewController.swift; sourceTree = "<group>"; };
+		82B57B0522E8ED9E0043BC22 /* GECTakeInOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeInOrderCell.swift; sourceTree = "<group>"; };
+		82B57B0622E8ED9E0043BC22 /* GECTakeInOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECTakeInOrderCell.xib; sourceTree = "<group>"; };
+		82BE6E65232B8E400068FB2F /* QRCodeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeTool.swift; sourceTree = "<group>"; };
+		82C9F48022AD24910022A515 /* GECCartPriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECCartPriceModel.swift; sourceTree = "<group>"; };
+		82C9F48222AD573F0022A515 /* ErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCode.swift; sourceTree = "<group>"; };
+		82C9F48622AD69860022A515 /* GECPreCartDishesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECPreCartDishesCell.swift; sourceTree = "<group>"; };
+		82C9F48722AD69860022A515 /* GECPreCartDishesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECPreCartDishesCell.xib; sourceTree = "<group>"; };
+		82D3269422E857A600D1C132 /* GECTakeInCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeInCartViewController.swift; sourceTree = "<group>"; };
+		82D3269522E857A600D1C132 /* GECTakeInCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECTakeInCartViewController.xib; sourceTree = "<group>"; };
+		82D3269822E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeInCartDishCellTableViewCell.swift; sourceTree = "<group>"; };
+		82D3269922E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECTakeInCartDishCellTableViewCell.xib; sourceTree = "<group>"; };
+		82D3269C22E8670900D1C132 /* GECTakeInCartFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECTakeInCartFooterView.swift; sourceTree = "<group>"; };
+		82D3269E22E8671700D1C132 /* GECTakeInCartFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GECTakeInCartFooterView.xib; sourceTree = "<group>"; };
+		82D5CE3322CF6F4800999C4B /* GECDocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECDocumentModel.swift; sourceTree = "<group>"; };
+		82D5CE3522CF7F9A00999C4B /* GECDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECDocumentViewController.swift; sourceTree = "<group>"; };
+		82D89C4422B8F1AF00B71C01 /* GECOrderListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECOrderListModel.swift; sourceTree = "<group>"; };
+		82D89C4622B90B6C00B71C01 /* GECBasicOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GECBasicOrderViewController.swift; sourceTree = "<group>"; };
+		89CBD037693703BEDED9D979 /* Pods_Asiall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Asiall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8293379D21E76AE1008F0801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB281C9E3C6F132BA7EEB41 /* Pods_Asiall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6380EF90684024D7323D0510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50FDEB946649BA72531B911A /* Pods-G-eatClient.debug.xcconfig */,
+				20B7E00EA111B558F845E97D /* Pods-G-eatClient.release.xcconfig */,
+				2E9419D7ACCCD9F57B63E0C0 /* Pods-Asiall.debug.xcconfig */,
+				22627185E795275436D6F773 /* Pods-Asiall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8202CE0721EA55BD00233600 /* GestionDirection */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE0821EA55E600233600 /* GECGestionDirectController.swift */,
+				8202CE0921EA55E600233600 /* GECGestionDirectController.xib */,
+			);
+			path = GestionDirection;
+			sourceTree = "<group>";
+		};
+		8202CE1621EA74DE00233600 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82D5CE3222CF6F3200999C4B /* Document */,
+				82D89C4322B8F19E00B71C01 /* Order */,
+				8202CE1721EA750500233600 /* Address */,
+				8222DFED2238181A00330968 /* GECLoginModel.swift */,
+				8222DFEF2239373900330968 /* GECUserInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8202CE1721EA750500233600 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE1821EA751900233600 /* GECAddressModel.swift */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		8202CE1A21EB1CAE00233600 /* JSPageView */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE1C21EB1CAE00233600 /* Extension */,
+				8202CE1E21EB1CAE00233600 /* JSPageFlowLayout.swift */,
+				8202CE1F21EB1CAE00233600 /* JSPageView.swift */,
+				8202CE1B21EB1CAE00233600 /* JS_TitleView.swift */,
+				8202CE2021EB1CAE00233600 /* JSContentView.swift */,
+				8202CE2121EB1CAE00233600 /* JS_PageStyle.swift */,
+			);
+			path = JSPageView;
+			sourceTree = "<group>";
+		};
+		8202CE1C21EB1CAE00233600 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE1D21EB1CAE00233600 /* JSPageCollectionView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8202CE2821EB1DE600233600 /* Current Order */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE2B21EB1E7F00233600 /* GECCurrentOrdersController.swift */,
+			);
+			path = "Current Order";
+			sourceTree = "<group>";
+		};
+		8202CE2921EB1DFC00233600 /* Finished Order */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE2D21EB1E9400233600 /* GECFinishedOrderController.swift */,
+			);
+			path = "Finished Order";
+			sourceTree = "<group>";
+		};
+		8202CE2A21EB1E0400233600 /* Canceled Order */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE2F21EB1EAB00233600 /* GECCanceledOrderController.swift */,
+			);
+			path = "Canceled Order";
+			sourceTree = "<group>";
+		};
+		8202CE3321EB3B9B00233600 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8262700821EE47150062A340 /* PlaceholderTextView.swift */,
+				8202CE1421EA6EC200233600 /* LocationManager.swift */,
+				8202CE3721EB3FB500233600 /* PlaceholderView */,
+				8202CE1A21EB1CAE00233600 /* JSPageView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8202CE3721EB3FB500233600 /* PlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				8202CE3821EB3FD100233600 /* GECPlaceholderView.swift */,
+				8202CE3A21EB3FDD00233600 /* GECPlaceholderView.xib */,
+			);
+			path = PlaceholderView;
+			sourceTree = "<group>";
+		};
+		82047B1D22A6783000315BD1 /* SearchRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				828FF3DD22A56E05008A7382 /* SearchRestaurantCell */,
+				828FF3DB22A52B83008A7382 /* GECHomeSearchResultsViewController.swift */,
+				828EA5CC23095AFB0003E922 /* GECHomeSearchViewController.swift */,
+				828EA5CD23095AFB0003E922 /* GECHomeSearchViewController.xib */,
+			);
+			path = SearchRestaurant;
+			sourceTree = "<group>";
+		};
+		820F199221F8AA1E00916246 /* DishesDetail */ = {
+			isa = PBXGroup;
+			children = (
+				828EA5D123096A5D0003E922 /* Cells */,
+				820F199321F8AC3100916246 /* GECDishesDetailController.swift */,
+				820F199421F8AC3100916246 /* GECDishesDetailController.xib */,
+			);
+			path = DishesDetail;
+			sourceTree = "<group>";
+		};
+		82254E7422366C9E006B6B1B /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				82254E7722366E73006B6B1B /* GECApis.swift */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		82254E7B22367230006B6B1B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				82254E7C22367254006B6B1B /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		823C7C3B2322A89C00D79E19 /* Restaurant Menu Selection List */ = {
+			isa = PBXGroup;
+			children = (
+				823C7C3C2322A8DB00D79E19 /* GECRestaurantSelectionMenuViewController.swift */,
+				823C7C3E2322A93500D79E19 /* GECRestaurantMenuSelectionCell.swift */,
+				823C7C3F2322A93500D79E19 /* GECRestaurantMenuSelectionCell.xib */,
+				823C7C422322AA2B00D79E19 /* GECRestaurantMenuSelectionHeaderView.swift */,
+			);
+			path = "Restaurant Menu Selection List";
+			sourceTree = "<group>";
+		};
+		8251585422E7837E00360FAC /* TakeInCart */ = {
+			isa = PBXGroup;
+			children = (
+				82D3269422E857A600D1C132 /* GECTakeInCartViewController.swift */,
+				82D3269522E857A600D1C132 /* GECTakeInCartViewController.xib */,
+				82D3269822E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.swift */,
+				82D3269922E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.xib */,
+				82D3269C22E8670900D1C132 /* GECTakeInCartFooterView.swift */,
+				82D3269E22E8671700D1C132 /* GECTakeInCartFooterView.xib */,
+			);
+			path = TakeInCart;
+			sourceTree = "<group>";
+		};
+		82626FFB21EE048F0062A340 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				82626FFC21EE055F0062A340 /* GECCartViewController.swift */,
+				82626FFD21EE055F0062A340 /* GECCartViewController.xib */,
+				8262700221EE3DB30062A340 /* GECCartDishesCell.swift */,
+				8262700321EE3DB30062A340 /* GECCartDishesCell.xib */,
+				82C9F48622AD69860022A515 /* GECPreCartDishesCell.swift */,
+				82C9F48722AD69860022A515 /* GECPreCartDishesCell.xib */,
+				82443BA1232547CB00E3798A /* GECPreCartDisheHeaderView.swift */,
+				82443BA3232547DD00E3798A /* GECPreCartDisheHeaderView.xib */,
+				82717B2921EF826000521ABE /* AlertView */,
+				82717B2821EF81C800521ABE /* Footer */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		8262700D21EE85080062A340 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				8262700E21EE86780062A340 /* GECDetailOrderController.swift */,
+				82717B2421EF7B2000521ABE /* GECDetailOrderController.xib */,
+				8262701021EF3ACB0062A340 /* GECOrderDishesCell.swift */,
+				8262701121EF3ACB0062A340 /* GECOrderDishesCell.xib */,
+				82717B2721EF81A600521ABE /* InfoView */,
+				82717B2621EF818C00521ABE /* HeaderFooter */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		8267F404229BDB1D0049D481 /* 轮子 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "轮子";
+			sourceTree = "<group>";
+		};
+		82717B2621EF818C00521ABE /* HeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				82717B1E21EF64AD00521ABE /* GECOrderHeaderCell.swift */,
+				8262701421EF3F050062A340 /* GECOrderHeaderCell.xib */,
+				8262702021EF634A0062A340 /* GECOrderFooterCell.swift */,
+				8262701621EF3F190062A340 /* GECOrderFooterCell.xib */,
+			);
+			path = HeaderFooter;
+			sourceTree = "<group>";
+		};
+		82717B2721EF81A600521ABE /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				8262701C21EF618C0062A340 /* GECOrderDeviveryInfoView.swift */,
+				8262701821EF4E610062A340 /* GECOrderDeviveryInfoView.xib */,
+				8262701E21EF61EF0062A340 /* GECOrderInfoView.swift */,
+				8262701A21EF4E8F0062A340 /* GECOrderInfoView.xib */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		82717B2821EF81C800521ABE /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				8262700A21EE4AFE0062A340 /* GECCartFooterView.swift */,
+				8262700621EE43950062A340 /* GECCartFooterView.xib */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		82717B2921EF826000521ABE /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				8278FB8D22B1391B00F2E6FF /* JS_AlertBaseView.swift */,
+				8278FB8F22B139D600F2E6FF /* JS_AlertDatePickerView.swift */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		8271C30322B3DF3D00531F97 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8271C30622B3E0C200531F97 /* LottieAnimation-Ex.swift */,
+				8271C30422B3DF4800531F97 /* restaurantLoading.json */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
+		8278EB2121FA090100B58FD5 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				8278EB2221FA0A0900B58FD5 /* GECPlayerController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		827D356622A7FBC7005A3E4C /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				827D356722A7FC43005A3E4C /* GECProfileInfoInputView.swift */,
+				8201457C22A93AE2008C78E2 /* GECPaddingTextField.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		828EA5D123096A5D0003E922 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				828EA5D223096A860003E922 /* GECDishesDetailImageViewCell.swift */,
+				828EA5D323096A860003E922 /* GECDishesDetailImageViewCell.xib */,
+				828EA5D623096B170003E922 /* GECDishesDetailInfoCell.swift */,
+				828EA5D723096B170003E922 /* GECDishesDetailInfoCell.xib */,
+				828EA5DA23096DBB0003E922 /* GECDishesDetailAttributeCell.swift */,
+				828EA5DB23096DBB0003E922 /* GECDishesDetailAttributeCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		828FF3D822A526B9008A7382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				829E160E23AD3E7D00AEC8B4 /* GECRestaurantBusinessList.swift */,
+				828FF3D922A526D5008A7382 /* GECRestaurantStoreModel.swift */,
+				82047B1E22A67C3C00315BD1 /* GECRestaurantFollowModel.swift */,
+				8228B07A22AAB96800394577 /* GECRestaurantDishesList.swift */,
+				82C9F48022AD24910022A515 /* GECCartPriceModel.swift */,
+				8278FB8622B0F40500F2E6FF /* GECStorePayMethodList.swift */,
+				8278FB8822B11A6600F2E6FF /* GECTakeAwayOrderModel.swift */,
+				826E2A7E22E9C9C8003FDC9D /* GECTakeInDishesCartModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		828FF3DD22A56E05008A7382 /* SearchRestaurantCell */ = {
+			isa = PBXGroup;
+			children = (
+				828FF3DE22A56E46008A7382 /* GECHomeSearchRestaurantCell.swift */,
+				828FF3DF22A56E46008A7382 /* GECHomeSearchRestaurantCell.xib */,
+			);
+			path = SearchRestaurantCell;
+			sourceTree = "<group>";
+		};
+		8293379721E76AE1008F0801 = {
+			isa = PBXGroup;
+			children = (
+				829337A221E76AE1008F0801 /* Asiall */,
+				829337A121E76AE1008F0801 /* Products */,
+				6380EF90684024D7323D0510 /* Pods */,
+				FFA9027A99261ACE5EE43C99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		829337A121E76AE1008F0801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829337A021E76AE1008F0801 /* Asiall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829337A221E76AE1008F0801 /* Asiall */ = {
+			isa = PBXGroup;
+			children = (
+				8267F404229BDB1D0049D481 /* 轮子 */,
+				829337B521E76B06008F0801 /* Classes */,
+				829337B721E76B16008F0801 /* Main */,
+				829337B621E76B0E008F0801 /* Extension */,
+				829337B821E76B1C008F0801 /* Resource */,
+				829337BA21E76E08008F0801 /* Sopprt */,
+			);
+			path = Asiall;
+			sourceTree = "<group>";
+		};
+		829337B521E76B06008F0801 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				82AB1729230AC9410045022B /* TakeIn Web */,
+				8278EB2121FA090100B58FD5 /* Player */,
+				829337EE21E7AF52008F0801 /* Scan */,
+				829337BC21E76F38008F0801 /* Welcome */,
+				829337BD21E76F42008F0801 /* Home */,
+				829337BE21E76F47008F0801 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		829337B621E76B0E008F0801 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8207A36623A0FEAE00A5EFA6 /* JS_CollectionViewFlowLayout.swift */,
+				82A41ACE21EF92AB00FD9579 /* AlertAction-Extension.swift */,
+				8202CE1221EA6EAA00233600 /* UIImage-Extension.swift */,
+				829337E621E789FE008F0801 /* UIColor-Extension.swift */,
+				82A07D5321EBF3590058068B /* String-Extension.swift */,
+				8202CE3521EB3BBB00233600 /* UIView-Extension.swift */,
+				8222DFF122394BAF00330968 /* UIImageView-Extension.swift */,
+				8271C30322B3DF3D00531F97 /* LottieAnimation */,
+				82254E7B22367230006B6B1B /* Networking */,
+				82254E7422366C9E006B6B1B /* Apis */,
+				829337E121E787D4008F0801 /* Tools */,
+				829337C621E77794008F0801 /* GlobalValues */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		829337B721E76B16008F0801 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				829337BF21E7707E008F0801 /* System */,
+				829337C021E7746F008F0801 /* GECTableBarController.swift */,
+				829337E821E79207008F0801 /* GECNavigationController.swift */,
+				829337F321E7E2DF008F0801 /* GECTabBar.swift */,
+				829337F521E7E7C3008F0801 /* GECMainViewModel.swift */,
+				82332E4322B2B1AF005E09AE /* NavigationController.swift */,
+				8251F31322B4EA3D0048B75A /* GECWelcomeViewController.swift */,
+				8251F31422B4EA3D0048B75A /* GECWelcomeViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		829337B821E76B1C008F0801 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				829337C921E77843008F0801 /* Language */,
+				829337AA21E76AE3008F0801 /* Assets.xcassets */,
+				829337B921E76B23008F0801 /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		829337B921E76B23008F0801 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				829337DF21E77B5F008F0801 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		829337BA21E76E08008F0801 /* Sopprt */ = {
+			isa = PBXGroup;
+			children = (
+				829337AF21E76AE3008F0801 /* Info.plist */,
+			);
+			path = Sopprt;
+			sourceTree = "<group>";
+		};
+		829337BC21E76F38008F0801 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		829337BD21E76F42008F0801 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				828FF3D822A526B9008A7382 /* Models */,
+				829337FE21E8A3BA008F0801 /* Views */,
+				829337FB21E8A140008F0801 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		829337BE21E76F47008F0801 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8293380B21E8E510008F0801 /* Views */,
+				8293380821E8E40A008F0801 /* ViewModel */,
+				8202CE1621EA74DE00233600 /* Model */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		829337BF21E7707E008F0801 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				829337A321E76AE1008F0801 /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		829337C621E77794008F0801 /* GlobalValues */ = {
+			isa = PBXGroup;
+			children = (
+				829337EA21E792C6008F0801 /* GlobalFrame.swift */,
+				829337C721E777BD008F0801 /* GlobalKeys.swift */,
+				829337E421E78999008F0801 /* Colors.swift */,
+				82A07D5A21ECC19B0058068B /* GlobalDefine.swift */,
+				82A07D6021ECCE510058068B /* GlobalString.swift */,
+				82C9F48222AD573F0022A515 /* ErrorCode.swift */,
+				82332E4122B29D9E005E09AE /* GlobalFunctions.swift */,
+			);
+			path = GlobalValues;
+			sourceTree = "<group>";
+		};
+		829337C921E77843008F0801 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				8273834A22CFB879003A877C /* Localizable.strings */,
+				82A090F222D216C30015AFC9 /* InfoPlist.strings */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		829337E121E787D4008F0801 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8271C30022B3D54600531F97 /* Double-Extension.swift */,
+				8271C2FF22B3D54600531F97 /* UITextField-Extension.swift */,
+				8202CE3321EB3B9B00233600 /* Lib */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		829337EE21E7AF52008F0801 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				82BE6E65232B8E400068FB2F /* QRCodeTool.swift */,
+				829337EF21E7AF6C008F0801 /* GECScanViewController.swift */,
+				829337F021E7AF6C008F0801 /* GECScanViewController.xib */,
+				821D005422C36D84001D5B2D /* GECScanDrawView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		829337FB21E8A140008F0801 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				829337FC21E8A155008F0801 /* GECHomeViewModel.swift */,
+				826E2A8022EA0FAE003FDC9D /* SocketSingleton.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		829337FE21E8A3BA008F0801 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				829E15F923AD3DB100AEC8B4 /* SubViews */,
+				829337F721E7ED35008F0801 /* GECHomeViewController.swift */,
+				829337F821E7ED35008F0801 /* GECHomeViewController.xib */,
+				8281534D2306A2E7004998FE /* GECCommonHubView.swift */,
+				829E160C23AD3DCA00AEC8B4 /* GECMainHomeViewController.swift */,
+				829337FF21E8A3C5008F0801 /* Follow RestaurantCell */,
+				82A07D5521ECC0B30058068B /* Restaurant Commodity List */,
+				82047B1D22A6783000315BD1 /* SearchRestaurant */,
+				820F199221F8AA1E00916246 /* DishesDetail */,
+				82A41ACD21EF914C00FD9579 /* DetailRestaurant */,
+				8251585422E7837E00360FAC /* TakeInCart */,
+				82B57B0222E8E8220043BC22 /* TakeInOrder */,
+				82626FFB21EE048F0062A340 /* Cart */,
+				8262700D21EE85080062A340 /* Order */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		829337FF21E8A3C5008F0801 /* Follow RestaurantCell */ = {
+			isa = PBXGroup;
+			children = (
+				8293380021E8A3FB008F0801 /* GECRestaurantCell.swift */,
+				8293380121E8A3FB008F0801 /* GECRestaurantCell.xib */,
+			);
+			path = "Follow RestaurantCell";
+			sourceTree = "<group>";
+		};
+		8293380821E8E40A008F0801 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8293380921E8E4F8008F0801 /* GECProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8293380B21E8E510008F0801 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8293380421E8D8C5008F0801 /* GECProfileViewController.swift */,
+				8293380521E8D8C5008F0801 /* GECProfileViewController.xib */,
+				82A41AD821EFD35C00FD9579 /* Login */,
+				8293380C21E8E51A008F0801 /* ProfileSettingCell */,
+				8293381121E901CD008F0801 /* INFO */,
+				8293381221E901D7008F0801 /* ORDER */,
+				8293381321E901DE008F0801 /* CREDIT */,
+				8293381521E901ED008F0801 /* ADDRESS */,
+				8293381421E901E6008F0801 /* ABOUT */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8293380C21E8E51A008F0801 /* ProfileSettingCell */ = {
+			isa = PBXGroup;
+			children = (
+				8293380D21E8E7E9008F0801 /* GECProfileSettingCell.swift */,
+				8293380E21E8E7E9008F0801 /* GECProfileSettingCell.xib */,
+			);
+			path = ProfileSettingCell;
+			sourceTree = "<group>";
+		};
+		8293381121E901CD008F0801 /* INFO */ = {
+			isa = PBXGroup;
+			children = (
+				8293382021E9D7D0008F0801 /* GECProfileInfoController.swift */,
+				8293382621EA0A65008F0801 /* GECProfileInfoCell.swift */,
+				8293382721EA0A65008F0801 /* GECProfileInfoCell.xib */,
+				8201457422A92E0D008C78E2 /* GECChangePasswordViewController.swift */,
+				8201457622A92FE7008C78E2 /* GECChangePasswordViewController.xib */,
+				827D356622A7FBC7005A3E4C /* SubViews */,
+			);
+			path = INFO;
+			sourceTree = "<group>";
+		};
+		8293381221E901D7008F0801 /* ORDER */ = {
+			isa = PBXGroup;
+			children = (
+				8293381821E9022D008F0801 /* GECProfileOrderController.swift */,
+				8202CE3121EB22CD00233600 /* GECProfileOrderController.xib */,
+				8202CE3C21EB46CA00233600 /* GECProfileOrderCell.swift */,
+				8202CE3D21EB46CA00233600 /* GECProfileOrderCell.xib */,
+				82D89C4622B90B6C00B71C01 /* GECBasicOrderViewController.swift */,
+				8202CE2A21EB1E0400233600 /* Canceled Order */,
+				8202CE2921EB1DFC00233600 /* Finished Order */,
+				8202CE2821EB1DE600233600 /* Current Order */,
+			);
+			path = ORDER;
+			sourceTree = "<group>";
+		};
+		8293381321E901DE008F0801 /* CREDIT */ = {
+			isa = PBXGroup;
+			children = (
+				82A07D4621EB865C0058068B /* GECProfileCreditController.swift */,
+				82A07D4721EB865C0058068B /* GECProfileCreditController.xib */,
+				82A07D4A21EB88840058068B /* GECProfileCardCell.swift */,
+				82A07D4B21EB88840058068B /* GECProfileCardCell.xib */,
+				82A07D4E21EB8DE20058068B /* AddNewCard */,
+			);
+			path = CREDIT;
+			sourceTree = "<group>";
+		};
+		8293381421E901E6008F0801 /* ABOUT */ = {
+			isa = PBXGroup;
+			children = (
+				82D5CE3722CF832B00999C4B /* SubViews */,
+				8202CDFD21EA3ED500233600 /* GECProfileAboutUsController.swift */,
+				8202CDFE21EA3ED500233600 /* GECProfileAboutUsController.xib */,
+				82D5CE3522CF7F9A00999C4B /* GECDocumentViewController.swift */,
+			);
+			path = ABOUT;
+			sourceTree = "<group>";
+		};
+		8293381521E901ED008F0801 /* ADDRESS */ = {
+			isa = PBXGroup;
+			children = (
+				8293381C21E9025B008F0801 /* GECProfileAddressController.swift */,
+				8202CE0521EA535D00233600 /* GECProfileAddressController.xib */,
+				8202CE0121EA498800233600 /* GECAddressCell.swift */,
+				8202CE0221EA498800233600 /* GECAddressCell.xib */,
+				8202CE0721EA55BD00233600 /* GestionDirection */,
+			);
+			path = ADDRESS;
+			sourceTree = "<group>";
+		};
+		829E15F923AD3DB100AEC8B4 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				829E15FA23AD3DB100AEC8B4 /* GECCustomBusinessCollectionCell.swift */,
+				829E15FB23AD3DB100AEC8B4 /* GECCustomBusinessCollectionCell.xib */,
+				829E15FC23AD3DB100AEC8B4 /* GECCustomBusinessView.swift */,
+				829E15FD23AD3DB100AEC8B4 /* GECCustomHomeTitleView.swift */,
+				829E15FE23AD3DB100AEC8B4 /* GECCustomHomeTitleView.xib */,
+				829E15FF23AD3DB100AEC8B4 /* GECCustomSearchView.swift */,
+				829E160023AD3DB100AEC8B4 /* GECCustomSearchView.xib */,
+				829E160123AD3DB100AEC8B4 /* GECMainHomeRestaurantTableCell.swift */,
+				829E160223AD3DB100AEC8B4 /* GECMainHomeRestaurantTableCell.xib */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		82A07D4E21EB8DE20058068B /* AddNewCard */ = {
+			isa = PBXGroup;
+			children = (
+				82A07D4F21EB8E0C0058068B /* GECNewCardController.swift */,
+				82A07D5021EB8E0C0058068B /* GECNewCardController.xib */,
+			);
+			path = AddNewCard;
+			sourceTree = "<group>";
+		};
+		82A07D5521ECC0B30058068B /* Restaurant Commodity List */ = {
+			isa = PBXGroup;
+			children = (
+				823C7C3B2322A89C00D79E19 /* Restaurant Menu Selection List */,
+				82A07D5621ECC0E00058068B /* GECRestaurantController.swift */,
+				82A07D5721ECC0E00058068B /* GECRestaurantController.xib */,
+				82A07D6221ECD5040058068B /* GECRestaurantSimpleView.swift */,
+				82A07D5E21ECCB340058068B /* GECRestaurantSimpleView.xib */,
+				82A07D6421ECF0F50058068B /* DishesCell */,
+			);
+			path = "Restaurant Commodity List";
+			sourceTree = "<group>";
+		};
+		82A07D6421ECF0F50058068B /* DishesCell */ = {
+			isa = PBXGroup;
+			children = (
+				82A07D6521ECF11A0058068B /* GECRestaurantDishesCell.swift */,
+				82A07D6621ECF11A0058068B /* GECRestaurantDishesCell.xib */,
+			);
+			path = DishesCell;
+			sourceTree = "<group>";
+		};
+		82A41ACD21EF914C00FD9579 /* DetailRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				82A41AD021EF93E700FD9579 /* GECRestaurantDetailController.swift */,
+				82A41AD121EF93E700FD9579 /* GECRestaurantDetailController.xib */,
+				82A41AD421EFD1F500FD9579 /* GECRestaurantImageCell.swift */,
+				82A41AD521EFD1F500FD9579 /* GECRestaurantImageCell.xib */,
+			);
+			path = DetailRestaurant;
+			sourceTree = "<group>";
+		};
+		82A41AD821EFD35C00FD9579 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				82A41AD921EFD37A00FD9579 /* GECLoginViewController.swift */,
+				8273834F22CFD417003A877C /* GECLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		82AB1729230AC9410045022B /* TakeIn Web */ = {
+			isa = PBXGroup;
+			children = (
+				82AB172A230AC95F0045022B /* GECTakeInWebViewController.swift */,
+				82AB172B230AC95F0045022B /* GECTakeInWebViewController.xib */,
+			);
+			path = "TakeIn Web";
+			sourceTree = "<group>";
+		};
+		82B57B0222E8E8220043BC22 /* TakeInOrder */ = {
+			isa = PBXGroup;
+			children = (
+				82B57B0322E8E8CB0043BC22 /* GECTakeInOrderViewController.swift */,
+				82B57B0522E8ED9E0043BC22 /* GECTakeInOrderCell.swift */,
+				82B57B0622E8ED9E0043BC22 /* GECTakeInOrderCell.xib */,
+			);
+			path = TakeInOrder;
+			sourceTree = "<group>";
+		};
+		82D5CE3222CF6F3200999C4B /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				82D5CE3322CF6F4800999C4B /* GECDocumentModel.swift */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		82D5CE3722CF832B00999C4B /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		82D89C4322B8F19E00B71C01 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				82D89C4422B8F1AF00B71C01 /* GECOrderListModel.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		FFA9027A99261ACE5EE43C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CBD037693703BEDED9D979 /* Pods_Asiall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8293379F21E76AE1008F0801 /* Asiall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829337B221E76AE3008F0801 /* Build configuration list for PBXNativeTarget "Asiall" */;
+			buildPhases = (
+				DE9D7AD20EAF7C76B7DB455A /* [CP] Check Pods Manifest.lock */,
+				8293379C21E76AE1008F0801 /* Sources */,
+				8293379D21E76AE1008F0801 /* Frameworks */,
+				8293379E21E76AE1008F0801 /* Resources */,
+				E05DF39728A588BD397DA6FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asiall;
+			productName = "G-eatClient";
+			productReference = 829337A021E76AE1008F0801 /* Asiall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8293379821E76AE1008F0801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GEC;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Asiall;
+				TargetAttributes = {
+					8293379F21E76AE1008F0801 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8293379B21E76AE1008F0801 /* Build configuration list for PBXProject "Asiall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				es,
+			);
+			mainGroup = 8293379721E76AE1008F0801;
+			productRefGroup = 829337A121E76AE1008F0801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8293379F21E76AE1008F0801 /* Asiall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8293379E21E76AE1008F0801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8202CE3B21EB3FDE00233600 /* GECPlaceholderView.xib in Resources */,
+				828EA5CF23095AFB0003E922 /* GECHomeSearchViewController.xib in Resources */,
+				8293381021E8E7E9008F0801 /* GECProfileSettingCell.xib in Resources */,
+				8293382921EA0A65008F0801 /* GECProfileInfoCell.xib in Resources */,
+				82C9F48922AD69860022A515 /* GECPreCartDishesCell.xib in Resources */,
+				82A41AD321EF93E700FD9579 /* GECRestaurantDetailController.xib in Resources */,
+				82A07D5F21ECCB340058068B /* GECRestaurantSimpleView.xib in Resources */,
+				8262701521EF3F050062A340 /* GECOrderHeaderCell.xib in Resources */,
+				8262701321EF3ACB0062A340 /* GECOrderDishesCell.xib in Resources */,
+				829E160923AD3DB200AEC8B4 /* GECCustomSearchView.xib in Resources */,
+				8202CE0621EA535D00233600 /* GECProfileAddressController.xib in Resources */,
+				8201457722A92FE7008C78E2 /* GECChangePasswordViewController.xib in Resources */,
+				8262701921EF4E610062A340 /* GECOrderDeviveryInfoView.xib in Resources */,
+				8202CE3F21EB46CA00233600 /* GECProfileOrderCell.xib in Resources */,
+				823C7C412322A93500D79E19 /* GECRestaurantMenuSelectionCell.xib in Resources */,
+				82D3269B22E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.xib in Resources */,
+				829E160723AD3DB200AEC8B4 /* GECCustomHomeTitleView.xib in Resources */,
+				8293380321E8A3FB008F0801 /* GECRestaurantCell.xib in Resources */,
+				820F199621F8AC3100916246 /* GECDishesDetailController.xib in Resources */,
+				8202CE3221EB22CD00233600 /* GECProfileOrderController.xib in Resources */,
+				8271C30522B3DF4800531F97 /* restaurantLoading.json in Resources */,
+				829337E021E77B5F008F0801 /* LaunchScreen.storyboard in Resources */,
+				828EA5DD23096DBB0003E922 /* GECDishesDetailAttributeCell.xib in Resources */,
+				829337FA21E7ED35008F0801 /* GECHomeViewController.xib in Resources */,
+				82D3269F22E8671700D1C132 /* GECTakeInCartFooterView.xib in Resources */,
+				82A07D4D21EB88840058068B /* GECProfileCardCell.xib in Resources */,
+				82AB172D230AC95F0045022B /* GECTakeInWebViewController.xib in Resources */,
+				829337F221E7AF6C008F0801 /* GECScanViewController.xib in Resources */,
+				82717B2521EF7B2000521ABE /* GECDetailOrderController.xib in Resources */,
+				82443BA4232547DD00E3798A /* GECPreCartDisheHeaderView.xib in Resources */,
+				82626FFF21EE055F0062A340 /* GECCartViewController.xib in Resources */,
+				82A41AD721EFD1F500FD9579 /* GECRestaurantImageCell.xib in Resources */,
+				8251F31622B4EA3D0048B75A /* GECWelcomeViewController.xib in Resources */,
+				8262700721EE43950062A340 /* GECCartFooterView.xib in Resources */,
+				828EA5D523096A870003E922 /* GECDishesDetailImageViewCell.xib in Resources */,
+				8202CE0B21EA55E600233600 /* GECGestionDirectController.xib in Resources */,
+				8293380721E8D8C5008F0801 /* GECProfileViewController.xib in Resources */,
+				8273834D22CFD417003A877C /* GECLoginViewController.xib in Resources */,
+				8262700521EE3DB30062A340 /* GECCartDishesCell.xib in Resources */,
+				829E160423AD3DB200AEC8B4 /* GECCustomBusinessCollectionCell.xib in Resources */,
+				82A090F022D216C30015AFC9 /* InfoPlist.strings in Resources */,
+				82A07D6821ECF11A0058068B /* GECRestaurantDishesCell.xib in Resources */,
+				8202CE0421EA498800233600 /* GECAddressCell.xib in Resources */,
+				82B57B0822E8ED9E0043BC22 /* GECTakeInOrderCell.xib in Resources */,
+				82D3269722E857A600D1C132 /* GECTakeInCartViewController.xib in Resources */,
+				829E160B23AD3DB200AEC8B4 /* GECMainHomeRestaurantTableCell.xib in Resources */,
+				8262701721EF3F190062A340 /* GECOrderFooterCell.xib in Resources */,
+				8273834822CFB879003A877C /* Localizable.strings in Resources */,
+				8262701B21EF4E8F0062A340 /* GECOrderInfoView.xib in Resources */,
+				82A07D4921EB865C0058068B /* GECProfileCreditController.xib in Resources */,
+				828EA5D923096B170003E922 /* GECDishesDetailInfoCell.xib in Resources */,
+				82A07D5221EB8E0C0058068B /* GECNewCardController.xib in Resources */,
+				828FF3E122A56E46008A7382 /* GECHomeSearchRestaurantCell.xib in Resources */,
+				82A07D5921ECC0E00058068B /* GECRestaurantController.xib in Resources */,
+				829337AB21E76AE3008F0801 /* Assets.xcassets in Resources */,
+				8202CE0021EA3ED500233600 /* GECProfileAboutUsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE9D7AD20EAF7C76B7DB455A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Asiall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05DF39728A588BD397DA6FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asiall/Pods-Asiall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asiall/Pods-Asiall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asiall/Pods-Asiall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8293379C21E76AE1008F0801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8202CE3E21EB46CA00233600 /* GECProfileOrderCell.swift in Sources */,
+				82A07D6121ECCE510058068B /* GlobalString.swift in Sources */,
+				82332E4222B29D9E005E09AE /* GlobalFunctions.swift in Sources */,
+				8262700B21EE4AFE0062A340 /* GECCartFooterView.swift in Sources */,
+				8202CE2521EB1CAE00233600 /* JSPageView.swift in Sources */,
+				820F199521F8AC3100916246 /* GECDishesDetailController.swift in Sources */,
+				82A07D5421EBF3590058068B /* String-Extension.swift in Sources */,
+				829E160823AD3DB200AEC8B4 /* GECCustomSearchView.swift in Sources */,
+				826E2A7F22E9C9C8003FDC9D /* GECTakeInDishesCartModel.swift in Sources */,
+				82B57B0422E8E8CB0043BC22 /* GECTakeInOrderViewController.swift in Sources */,
+				828EA5D423096A860003E922 /* GECDishesDetailImageViewCell.swift in Sources */,
+				828FF3DA22A526D5008A7382 /* GECRestaurantStoreModel.swift in Sources */,
+				8262701F21EF61EF0062A340 /* GECOrderInfoView.swift in Sources */,
+				8202CE2721EB1CAE00233600 /* JS_PageStyle.swift in Sources */,
+				82A07D6321ECD5040058068B /* GECRestaurantSimpleView.swift in Sources */,
+				82A07D5821ECC0E00058068B /* GECRestaurantController.swift in Sources */,
+				8202CE2421EB1CAE00233600 /* JSPageFlowLayout.swift in Sources */,
+				821D005522C36D84001D5B2D /* GECScanDrawView.swift in Sources */,
+				8228B07B22AAB96800394577 /* GECRestaurantDishesList.swift in Sources */,
+				82A41AD221EF93E700FD9579 /* GECRestaurantDetailController.swift in Sources */,
+				8202CE2321EB1CAE00233600 /* JSPageCollectionView.swift in Sources */,
+				82254E7822366E73006B6B1B /* GECApis.swift in Sources */,
+				8262700921EE47150062A340 /* PlaceholderTextView.swift in Sources */,
+				8278EB2421FA0A0900B58FD5 /* GECPlayerController.swift in Sources */,
+				8293381D21E9025C008F0801 /* GECProfileAddressController.swift in Sources */,
+				8202CE3021EB1EAB00233600 /* GECCanceledOrderController.swift in Sources */,
+				8293380A21E8E4F8008F0801 /* GECProfileViewModel.swift in Sources */,
+				82332E4422B2B1AF005E09AE /* NavigationController.swift in Sources */,
+				8278FB8722B0F40500F2E6FF /* GECStorePayMethodList.swift in Sources */,
+				8202CE1921EA751900233600 /* GECAddressModel.swift in Sources */,
+				8202CE2621EB1CAE00233600 /* JSContentView.swift in Sources */,
+				82C9F48122AD24910022A515 /* GECCartPriceModel.swift in Sources */,
+				82A41AD621EFD1F500FD9579 /* GECRestaurantImageCell.swift in Sources */,
+				8207A36723A0FEAE00A5EFA6 /* JS_CollectionViewFlowLayout.swift in Sources */,
+				829E160D23AD3DCA00AEC8B4 /* GECMainHomeViewController.swift in Sources */,
+				82D89C4722B90B6C00B71C01 /* GECBasicOrderViewController.swift in Sources */,
+				82626FFE21EE055F0062A340 /* GECCartViewController.swift in Sources */,
+				8202CE2E21EB1E9400233600 /* GECFinishedOrderController.swift in Sources */,
+				828FF3E022A56E46008A7382 /* GECHomeSearchRestaurantCell.swift in Sources */,
+				827D356822A7FC43005A3E4C /* GECProfileInfoInputView.swift in Sources */,
+				828EA5DC23096DBB0003E922 /* GECDishesDetailAttributeCell.swift in Sources */,
+				829337F121E7AF6C008F0801 /* GECScanViewController.swift in Sources */,
+				82D3269A22E85A8B00D1C132 /* GECTakeInCartDishCellTableViewCell.swift in Sources */,
+				8278FB9022B139D600F2E6FF /* JS_AlertDatePickerView.swift in Sources */,
+				8281534E2306A2E7004998FE /* GECCommonHubView.swift in Sources */,
+				82443BA2232547CB00E3798A /* GECPreCartDisheHeaderView.swift in Sources */,
+				8222DFEE2238181A00330968 /* GECLoginModel.swift in Sources */,
+				82A41ADB21EFD37A00FD9579 /* GECLoginViewController.swift in Sources */,
+				82A07D5121EB8E0C0058068B /* GECNewCardController.swift in Sources */,
+				8201457D22A93AE2008C78E2 /* GECPaddingTextField.swift in Sources */,
+				82A07D4821EB865C0058068B /* GECProfileCreditController.swift in Sources */,
+				8293382821EA0A65008F0801 /* GECProfileInfoCell.swift in Sources */,
+				829E160323AD3DB200AEC8B4 /* GECCustomBusinessCollectionCell.swift in Sources */,
+				8293380621E8D8C5008F0801 /* GECProfileViewController.swift in Sources */,
+				82C9F48322AD573F0022A515 /* ErrorCode.swift in Sources */,
+				829337E721E789FE008F0801 /* UIColor-Extension.swift in Sources */,
+				8202CE3921EB3FD100233600 /* GECPlaceholderView.swift in Sources */,
+				8278FB8922B11A6600F2E6FF /* GECTakeAwayOrderModel.swift in Sources */,
+				8293380221E8A3FB008F0801 /* GECRestaurantCell.swift in Sources */,
+				8293382221E9D7D0008F0801 /* GECProfileInfoController.swift in Sources */,
+				8202CDFF21EA3ED500233600 /* GECProfileAboutUsController.swift in Sources */,
+				8262702121EF634A0062A340 /* GECOrderFooterCell.swift in Sources */,
+				829337E521E78999008F0801 /* Colors.swift in Sources */,
+				8201457522A92E0D008C78E2 /* GECChangePasswordViewController.swift in Sources */,
+				82D5CE3622CF7F9A00999C4B /* GECDocumentViewController.swift in Sources */,
+				8202CE1321EA6EAB00233600 /* UIImage-Extension.swift in Sources */,
+				829E160F23AD3E7E00AEC8B4 /* GECRestaurantBusinessList.swift in Sources */,
+				829337C821E777BD008F0801 /* GlobalKeys.swift in Sources */,
+				823C7C3D2322A8DB00D79E19 /* GECRestaurantSelectionMenuViewController.swift in Sources */,
+				8262701D21EF618C0062A340 /* GECOrderDeviveryInfoView.swift in Sources */,
+				82D3269D22E8670900D1C132 /* GECTakeInCartFooterView.swift in Sources */,
+				8271C30722B3E0C200531F97 /* LottieAnimation-Ex.swift in Sources */,
+				829E160523AD3DB200AEC8B4 /* GECCustomBusinessView.swift in Sources */,
+				8262700F21EE86780062A340 /* GECDetailOrderController.swift in Sources */,
+				8251F31522B4EA3D0048B75A /* GECWelcomeViewController.swift in Sources */,
+				829337F621E7E7C3008F0801 /* GECMainViewModel.swift in Sources */,
+				8222DFF02239373900330968 /* GECUserInfoModel.swift in Sources */,
+				82717B1F21EF64AD00521ABE /* GECOrderHeaderCell.swift in Sources */,
+				8271C30222B3D54600531F97 /* Double-Extension.swift in Sources */,
+				8202CE3621EB3BBB00233600 /* UIView-Extension.swift in Sources */,
+				82254E7D22367254006B6B1B /* Networking.swift in Sources */,
+				82A41ACF21EF92AB00FD9579 /* AlertAction-Extension.swift in Sources */,
+				823C7C432322AA2B00D79E19 /* GECRestaurantMenuSelectionHeaderView.swift in Sources */,
+				8222DFF222394BAF00330968 /* UIImageView-Extension.swift in Sources */,
+				8293380F21E8E7E9008F0801 /* GECProfileSettingCell.swift in Sources */,
+				82A07D6721ECF11A0058068B /* GECRestaurantDishesCell.swift in Sources */,
+				8278FB8E22B1391B00F2E6FF /* JS_AlertBaseView.swift in Sources */,
+				829E160A23AD3DB200AEC8B4 /* GECMainHomeRestaurantTableCell.swift in Sources */,
+				8293381921E9022D008F0801 /* GECProfileOrderController.swift in Sources */,
+				829337E921E79207008F0801 /* GECNavigationController.swift in Sources */,
+				826E2A8122EA0FAE003FDC9D /* SocketSingleton.swift in Sources */,
+				82C9F48822AD69860022A515 /* GECPreCartDishesCell.swift in Sources */,
+				82AB172C230AC95F0045022B /* GECTakeInWebViewController.swift in Sources */,
+				828EA5D823096B170003E922 /* GECDishesDetailInfoCell.swift in Sources */,
+				823C7C402322A93500D79E19 /* GECRestaurantMenuSelectionCell.swift in Sources */,
+				8202CE0A21EA55E600233600 /* GECGestionDirectController.swift in Sources */,
+				828EA5CE23095AFB0003E922 /* GECHomeSearchViewController.swift in Sources */,
+				82D3269622E857A600D1C132 /* GECTakeInCartViewController.swift in Sources */,
+				8271C30122B3D54600531F97 /* UITextField-Extension.swift in Sources */,
+				8202CE2C21EB1E7F00233600 /* GECCurrentOrdersController.swift in Sources */,
+				8262700421EE3DB30062A340 /* GECCartDishesCell.swift in Sources */,
+				82047B1F22A67C3C00315BD1 /* GECRestaurantFollowModel.swift in Sources */,
+				829337C121E7746F008F0801 /* GECTableBarController.swift in Sources */,
+				829337F421E7E2DF008F0801 /* GECTabBar.swift in Sources */,
+				829337F921E7ED35008F0801 /* GECHomeViewController.swift in Sources */,
+				829337FD21E8A155008F0801 /* GECHomeViewModel.swift in Sources */,
+				829337A421E76AE1008F0801 /* AppDelegate.swift in Sources */,
+				8262701221EF3ACB0062A340 /* GECOrderDishesCell.swift in Sources */,
+				82BE6E66232B8E400068FB2F /* QRCodeTool.swift in Sources */,
+				82B57B0722E8ED9E0043BC22 /* GECTakeInOrderCell.swift in Sources */,
+				82D5CE3422CF6F4800999C4B /* GECDocumentModel.swift in Sources */,
+				829E160623AD3DB200AEC8B4 /* GECCustomHomeTitleView.swift in Sources */,
+				829337EB21E792C6008F0801 /* GlobalFrame.swift in Sources */,
+				8202CE2221EB1CAE00233600 /* JS_TitleView.swift in Sources */,
+				8202CE0321EA498800233600 /* GECAddressCell.swift in Sources */,
+				82A07D5B21ECC19B0058068B /* GlobalDefine.swift in Sources */,
+				828FF3DC22A52B83008A7382 /* GECHomeSearchResultsViewController.swift in Sources */,
+				8202CE1521EA6EC200233600 /* LocationManager.swift in Sources */,
+				82D89C4522B8F1AF00B71C01 /* GECOrderListModel.swift in Sources */,
+				82A07D4C21EB88840058068B /* GECProfileCardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8273834A22CFB879003A877C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8273834922CFB879003A877C /* en */,
+				8273834B22CFB87B003A877C /* zh-Hans */,
+				8273834C22CFB87C003A877C /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8273834F22CFD417003A877C /* GECLoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8273834E22CFD417003A877C /* Base */,
+				8273835322CFD42D003A877C /* zh-Hans */,
+				8273835522CFD42E003A877C /* es */,
+				8273835722CFD70C003A877C /* en */,
+			);
+			name = GECLoginViewController.xib;
+			sourceTree = "<group>";
+		};
+		82A090F222D216C30015AFC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A090F122D216C30015AFC9 /* en */,
+				82A090F322D216C50015AFC9 /* zh-Hans */,
+				82A090F422D216C70015AFC9 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		829337B021E76AE3008F0801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		829337B121E76AE3008F0801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		829337B321E76AE3008F0801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9419D7ACCCD9F57B63E0C0 /* Pods-Asiall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = 9XQ7LAB949;
+				INFOPLIST_FILE = Asiall/Sopprt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jscoder.asiall;
+				PRODUCT_NAME = Asiall;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		829337B421E76AE3008F0801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22627185E795275436D6F773 /* Pods-Asiall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = 9XQ7LAB949;
+				INFOPLIST_FILE = Asiall/Sopprt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jscoder.asiall;
+				PRODUCT_NAME = Asiall;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8293379B21E76AE1008F0801 /* Build configuration list for PBXProject "Asiall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829337B021E76AE3008F0801 /* Debug */,
+				829337B121E76AE3008F0801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829337B221E76AE3008F0801 /* Build configuration list for PBXNativeTarget "Asiall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829337B321E76AE3008F0801 /* Debug */,
+				829337B421E76AE3008F0801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8293379821E76AE1008F0801 /* Project object */;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GECTakeInCartViewController" customModule="G_eatClient" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomOperationViewHeight" destination="1rE-cF-Z8X" id="9gl-7R-bsM"/>
+                <outlet property="continueToBuyButton" destination="Cq3-ao-ekt" id="fU6-y3-IX6"/>
+                <outlet property="orderButton" destination="cxF-zH-2GQ" id="dDu-mI-Lv5"/>
+                <outlet property="tableView" destination="GBN-oJ-Ucf" id="AZn-hf-Jzq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qRK-RI-bay">
+                    <rect key="frame" x="0.0" y="832" width="414" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cq3-ao-ekt">
+                            <rect key="frame" x="0.0" y="0.0" width="207" height="64"/>
+                            <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                            <state key="normal" title="继续选购">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="continueToBuyTouchUpInsideAction:" destination="-1" eventType="touchUpInside" id="kHh-UT-HFf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxF-zH-2GQ">
+                            <rect key="frame" x="207" y="0.0" width="207" height="64"/>
+                            <color key="backgroundColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                            <state key="normal" title="下单">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="placeToOrderTouchUpInsideAction:" destination="-1" eventType="touchUpInside" id="GAO-g8-ZGK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="1rE-cF-Z8X"/>
+                        <constraint firstAttribute="bottom" secondItem="cxF-zH-2GQ" secondAttribute="bottom" id="3HL-Kh-IqM"/>
+                        <constraint firstItem="cxF-zH-2GQ" firstAttribute="width" secondItem="Cq3-ao-ekt" secondAttribute="width" id="77E-rQ-Zcs"/>
+                        <constraint firstItem="cxF-zH-2GQ" firstAttribute="top" secondItem="qRK-RI-bay" secondAttribute="top" id="G5R-U3-BkA"/>
+                        <constraint firstAttribute="bottom" secondItem="Cq3-ao-ekt" secondAttribute="bottom" id="M5h-Yr-QO1"/>
+                        <constraint firstItem="cxF-zH-2GQ" firstAttribute="leading" secondItem="Cq3-ao-ekt" secondAttribute="trailing" id="dJ4-pg-Qn5"/>
+                        <constraint firstItem="Cq3-ao-ekt" firstAttribute="leading" secondItem="qRK-RI-bay" secondAttribute="leading" id="guJ-xQ-fJQ"/>
+                        <constraint firstAttribute="trailing" secondItem="cxF-zH-2GQ" secondAttribute="trailing" id="rsi-HZ-foR"/>
+                        <constraint firstItem="Cq3-ao-ekt" firstAttribute="top" secondItem="qRK-RI-bay" secondAttribute="top" id="xRr-06-5q6"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GBN-oJ-Ucf">
+                    <rect key="frame" x="0.0" y="44" width="414" height="788"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qRK-RI-bay" secondAttribute="bottom" id="9NZ-Hs-vIm"/>
+                <constraint firstItem="GBN-oJ-Ucf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Aa0-J1-JpH"/>
+                <constraint firstItem="qRK-RI-bay" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="K0o-1g-rn0"/>
+                <constraint firstItem="GBN-oJ-Ucf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="YpA-lq-Og8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qRK-RI-bay" secondAttribute="trailing" id="gaf-QY-mxB"/>
+                <constraint firstItem="qRK-RI-bay" firstAttribute="top" secondItem="GBN-oJ-Ucf" secondAttribute="bottom" id="vwS-4Q-4rW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GBN-oJ-Ucf" secondAttribute="trailing" id="ysK-WE-Hgs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-500" y="-52"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="GECTakeInCartDishCellTableViewCell" customModule="G_eatClient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="菜品名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvE-Mm-elr">
+                        <rect key="frame" x="15" y="5" width="61.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="属性" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnc-Ee-86Z">
+                        <rect key="frame" x="15" y="35" width="25" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.55€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLb-7a-92x">
+                        <rect key="frame" x="258" y="5" width="47" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUX-yH-uyJ">
+                        <rect key="frame" x="285" y="27.5" width="20" height="22"/>
+                        <state key="normal" image="plus_icon"/>
+                        <connections>
+                            <action selector="addDishToCartAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="T5M-5K-Yfh"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kk-IX-eTu">
+                        <rect key="frame" x="218" y="27.5" width="20" height="22"/>
+                        <state key="normal" image="subtract_icon"/>
+                        <connections>
+                            <action selector="subtractDishFromCartAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xJk-Uc-OUP"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kA2-hq-yOl">
+                        <rect key="frame" x="253" y="29.5" width="17" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Pnc-Ee-86Z" secondAttribute="bottom" constant="5" id="3lw-Xy-Bx6"/>
+                    <constraint firstItem="3kk-IX-eTu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Pnc-Ee-86Z" secondAttribute="trailing" constant="15" id="B5w-Cx-dDf"/>
+                    <constraint firstItem="oUX-yH-uyJ" firstAttribute="leading" secondItem="kA2-hq-yOl" secondAttribute="trailing" constant="15" id="D89-8t-6Tk"/>
+                    <constraint firstAttribute="bottom" secondItem="oUX-yH-uyJ" secondAttribute="bottom" constant="5" id="F6i-hm-2qT"/>
+                    <constraint firstItem="kA2-hq-yOl" firstAttribute="centerY" secondItem="oUX-yH-uyJ" secondAttribute="centerY" id="HKM-Z6-fSt"/>
+                    <constraint firstAttribute="trailing" secondItem="sLb-7a-92x" secondAttribute="trailing" constant="15" id="P9b-65-6bM"/>
+                    <constraint firstItem="kA2-hq-yOl" firstAttribute="leading" secondItem="3kk-IX-eTu" secondAttribute="trailing" constant="15" id="THj-Ta-DPg"/>
+                    <constraint firstAttribute="trailing" secondItem="oUX-yH-uyJ" secondAttribute="trailing" constant="15" id="gAt-jf-lTQ"/>
+                    <constraint firstItem="sLb-7a-92x" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jvE-Mm-elr" secondAttribute="trailing" constant="15" id="i9k-NP-GxF"/>
+                    <constraint firstItem="3kk-IX-eTu" firstAttribute="centerY" secondItem="kA2-hq-yOl" secondAttribute="centerY" id="n65-fx-DaM"/>
+                    <constraint firstItem="jvE-Mm-elr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="pBS-Em-fut"/>
+                    <constraint firstItem="sLb-7a-92x" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="s7l-Df-63j"/>
+                    <constraint firstItem="jvE-Mm-elr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="sTo-5B-Wm4"/>
+                    <constraint firstItem="Pnc-Ee-86Z" firstAttribute="leading" secondItem="jvE-Mm-elr" secondAttribute="leading" id="uft-KT-dxI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="attributeLabel" destination="Pnc-Ee-86Z" id="Bod-h0-Q1H"/>
+                <outlet property="dishInCartCountLabel" destination="kA2-hq-yOl" id="RRk-pn-nJL"/>
+                <outlet property="dishNameLabel" destination="jvE-Mm-elr" id="1NX-87-cWL"/>
+                <outlet property="dishPriceLabel" destination="sLb-7a-92x" id="aeN-gk-yaS"/>
+            </connections>
+            <point key="canvasLocation" x="155" y="67"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="plus_icon" width="20" height="20"/>
+        <image name="subtract_icon" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="64" id="KGk-i7-Jjw" customClass="GECHomeSearchRestaurantCell" customModule="G_eatClient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="0vM-hE-nu6">
+                        <rect key="frame" x="15" y="6.5" width="51" height="50.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="0vM-hE-nu6" secondAttribute="height" id="kZ9-Xe-9FS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nickel &amp; Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DtU-rz-r1E">
+                        <rect key="frame" x="76" y="6.5" width="108" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calle de rio ebro 15, 28947, Madrid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4c-2w-edJ">
+                        <rect key="frame" x="76" y="24.5" width="212" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+34 911159090" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Od-GF-wr1">
+                        <rect key="frame" x="76" y="40.5" width="95.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="follow_icon" translatesAutoresizingMaskIntoConstraints="NO" id="QGm-uX-Thp">
+                        <rect key="frame" x="47" y="1.5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="NSZ-af-fwG"/>
+                            <constraint firstAttribute="width" constant="24" id="prD-Bh-nv6"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="q4c-2w-edJ" secondAttribute="trailing" constant="10" id="7EE-qh-Vay"/>
+                    <constraint firstItem="QGm-uX-Thp" firstAttribute="trailing" secondItem="0vM-hE-nu6" secondAttribute="trailing" constant="5" id="FcJ-ws-dVb"/>
+                    <constraint firstItem="1Od-GF-wr1" firstAttribute="top" secondItem="q4c-2w-edJ" secondAttribute="bottom" id="HIK-mG-dvV"/>
+                    <constraint firstItem="0vM-hE-nu6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="J4b-MD-LyD"/>
+                    <constraint firstItem="DtU-rz-r1E" firstAttribute="leading" secondItem="0vM-hE-nu6" secondAttribute="trailing" constant="10" id="M5r-0s-3mp"/>
+                    <constraint firstItem="1Od-GF-wr1" firstAttribute="leading" secondItem="q4c-2w-edJ" secondAttribute="leading" id="SvC-Cb-skc"/>
+                    <constraint firstItem="q4c-2w-edJ" firstAttribute="leading" secondItem="DtU-rz-r1E" secondAttribute="leading" id="Way-Yc-Reg"/>
+                    <constraint firstItem="0vM-hE-nu6" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.8" id="bmx-7B-c09"/>
+                    <constraint firstItem="q4c-2w-edJ" firstAttribute="top" secondItem="DtU-rz-r1E" secondAttribute="bottom" id="cPl-Qt-LMA"/>
+                    <constraint firstItem="DtU-rz-r1E" firstAttribute="top" secondItem="0vM-hE-nu6" secondAttribute="top" id="jtD-SQ-Xov"/>
+                    <constraint firstItem="QGm-uX-Thp" firstAttribute="top" secondItem="0vM-hE-nu6" secondAttribute="top" constant="-5" id="mJK-bK-k07"/>
+                    <constraint firstItem="0vM-hE-nu6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="w0E-yt-49u"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contactLabel" destination="1Od-GF-wr1" id="CY3-gw-QTX"/>
+                <outlet property="directionLabel" destination="q4c-2w-edJ" id="Z6R-gj-wSE"/>
+                <outlet property="followImageView" destination="QGm-uX-Thp" id="iaE-bK-Rit"/>
+                <outlet property="logoImageView" destination="0vM-hE-nu6" id="nTX-mv-tW1"/>
+                <outlet property="nameLabel" destination="DtU-rz-r1E" id="5OX-cw-3dR"/>
+            </connections>
+            <point key="canvasLocation" x="306" y="69"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="follow_icon" width="24" height="24"/>
+        <image name="profileIcon" width="47" height="47"/>
+    </resources>
+</document>

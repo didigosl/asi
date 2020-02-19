@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GECHomeSearchViewController" customModule="G_eatClient" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="6ct-CY-G87" id="Dfq-sf-TGD"/>
+                <outlet property="searchBar" destination="uLe-ip-NLR" id="ZP2-59-zGg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ct-CY-G87">
+                    <rect key="frame" x="329" y="57" width="31" height="30"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelSearchAction:" destination="-1" eventType="touchUpInside" id="kN2-Wg-rfG"/>
+                    </connections>
+                </button>
+                <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="搜索您想要收藏的商家名称" translatesAutoresizingMaskIntoConstraints="NO" id="uLe-ip-NLR">
+                    <rect key="frame" x="0.0" y="44" width="329" height="56"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <offsetWrapper key="searchTextPositionAdjustment" horizontal="5" vertical="0.0"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uLe-ip-NLR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0Dq-CB-A3C"/>
+                <constraint firstItem="uLe-ip-NLR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Kyn-WG-3RJ"/>
+                <constraint firstItem="6ct-CY-G87" firstAttribute="leading" secondItem="uLe-ip-NLR" secondAttribute="trailing" id="Lqj-kK-qHE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6ct-CY-G87" secondAttribute="trailing" constant="15" id="Mhx-hO-Zx9"/>
+                <constraint firstItem="6ct-CY-G87" firstAttribute="centerY" secondItem="uLe-ip-NLR" secondAttribute="centerY" id="efL-L1-mIt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="337" y="-13"/>
+        </view>
+    </objects>
+</document>

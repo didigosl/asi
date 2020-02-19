@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GECHomeViewController" customModule="G_eatClient" customModuleProvider="target">
+            <connections>
+                <outlet property="addNewRestaurentButton" destination="K6h-th-CUJ" id="r7t-bI-O85"/>
+                <outlet property="collectionView" destination="tG5-Ds-Dp7" id="n58-cN-wkM"/>
+                <outlet property="hubLabel" destination="M85-4G-UBx" id="8NN-JV-9xn"/>
+                <outlet property="introduceImageView" destination="Bhv-IP-L4u" id="uqx-Wc-Bpe"/>
+                <outlet property="orderAlertView" destination="WOu-X1-Hai" id="Y3d-UP-1aE"/>
+                <outlet property="orderAlertViewHeightConstraint" destination="V46-LA-9u3" id="W34-6s-BrF"/>
+                <outlet property="placeHubView" destination="tVV-Ar-5lt" id="NtS-vj-yWH"/>
+                <outlet property="searchBar" destination="Sr3-IZ-YZX" id="LqG-be-AX8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tG5-Ds-Dp7">
+                    <rect key="frame" x="0.0" y="100" width="375" height="712"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="THo-ZV-mHr">
+                        <size key="itemSize" width="0.0" height="0.0"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVV-Ar-5lt">
+                    <rect key="frame" x="15" y="231" width="345" height="250"/>
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="restaurantPlace" translatesAutoresizingMaskIntoConstraints="NO" id="Bhv-IP-L4u">
+                            <rect key="frame" x="122.66666666666666" y="0.0" width="100" height="100"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无任何商家, 请通过🔍 或者 扫码 来添加商家" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M85-4G-UBx">
+                            <rect key="frame" x="15" y="110.00000000000001" width="315" height="40.666666666666671"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6h-th-CUJ">
+                            <rect key="frame" x="69" y="155.66666666666669" width="207" height="44"/>
+                            <color key="backgroundColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="Fgu-oX-DVs"/>
+                            </constraints>
+                            <state key="normal" title="添加商家">
+                                <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="addRestaurentButtonAction:" destination="-1" eventType="touchUpInside" id="5X9-43-KHP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="M85-4G-UBx" firstAttribute="top" secondItem="Bhv-IP-L4u" secondAttribute="bottom" constant="10" id="6sn-c7-j1w"/>
+                        <constraint firstAttribute="height" constant="250" id="Cu2-sc-Guh"/>
+                        <constraint firstItem="K6h-th-CUJ" firstAttribute="centerX" secondItem="tVV-Ar-5lt" secondAttribute="centerX" id="Kfo-g3-TvE"/>
+                        <constraint firstItem="Bhv-IP-L4u" firstAttribute="centerX" secondItem="tVV-Ar-5lt" secondAttribute="centerX" id="TFw-zB-WM3"/>
+                        <constraint firstAttribute="trailing" secondItem="M85-4G-UBx" secondAttribute="trailing" constant="15" id="Z1e-2m-MIu"/>
+                        <constraint firstItem="K6h-th-CUJ" firstAttribute="top" secondItem="M85-4G-UBx" secondAttribute="bottom" constant="5" id="ao1-Pt-N0z"/>
+                        <constraint firstItem="Bhv-IP-L4u" firstAttribute="top" secondItem="tVV-Ar-5lt" secondAttribute="top" id="epP-VG-59a"/>
+                        <constraint firstItem="M85-4G-UBx" firstAttribute="leading" secondItem="tVV-Ar-5lt" secondAttribute="leading" constant="15" id="t79-uw-iiY"/>
+                        <constraint firstItem="K6h-th-CUJ" firstAttribute="width" secondItem="tVV-Ar-5lt" secondAttribute="width" multiplier="0.6" id="xBY-x6-TCg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="Sr3-IZ-YZX">
+                    <rect key="frame" x="10" y="44" width="355" height="56"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOu-X1-Hai">
+                    <rect key="frame" x="15" y="100" width="345" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="V46-LA-9u3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tVV-Ar-5lt" secondAttribute="trailing" constant="15" id="0lq-hO-zFu"/>
+                <constraint firstItem="WOu-X1-Hai" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="3j1-Om-Cib"/>
+                <constraint firstItem="WOu-X1-Hai" firstAttribute="top" secondItem="Sr3-IZ-YZX" secondAttribute="bottom" id="Axg-c8-BSc"/>
+                <constraint firstItem="Sr3-IZ-YZX" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="FVG-FL-EaV"/>
+                <constraint firstItem="tVV-Ar-5lt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-50" id="Fhk-xX-K3h"/>
+                <constraint firstItem="tG5-Ds-Dp7" firstAttribute="top" secondItem="Sr3-IZ-YZX" secondAttribute="bottom" id="Fyt-ft-Pkd"/>
+                <constraint firstItem="tG5-Ds-Dp7" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="G1J-Od-bwi"/>
+                <constraint firstItem="Sr3-IZ-YZX" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-10" id="JlV-lS-b84"/>
+                <constraint firstItem="Sr3-IZ-YZX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="LJt-dW-oxs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WOu-X1-Hai" secondAttribute="trailing" constant="15" id="MQD-dU-ccz"/>
+                <constraint firstAttribute="bottom" secondItem="tG5-Ds-Dp7" secondAttribute="bottom" id="Ody-H8-SND"/>
+                <constraint firstItem="tVV-Ar-5lt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="hya-jy-7zb"/>
+                <constraint firstItem="tG5-Ds-Dp7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="wT1-pf-biK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-369" y="-136"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="restaurantPlace" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "651-45-xuc"; */
+"651-45-xuc.normalTitle" = "Registrar";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "DNF-dN-O2L"; */
+"DNF-dN-O2L.normalTitle" = "Registrar";
+
+/* Class = "UITextField"; placeholder = "密码"; ObjectID = "KZe-G9-uD1"; */
+"KZe-G9-uD1.placeholder" = "Contraseña";
+
+/* Class = "UITextField"; placeholder = "用户名/邮箱"; ObjectID = "Rtz-qX-km1"; */
+"Rtz-qX-km1.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "邮箱"; ObjectID = "dhY-wa-rhP"; */
+"dhY-wa-rhP.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "用户名"; ObjectID = "eFp-vA-2lI"; */
+"eFp-vA-2lI.placeholder" = "Nombre de usuario";
+
+/* Class = "UILabel"; text = "还没有帐号?"; ObjectID = "g4A-hI-C19"; */
+"g4A-hI-C19.text" = "¿Aún no tienes una cuenta?";
+
+/* Class = "UILabel"; text = "Welcome GoEat"; ObjectID = "igR-8y-NzM"; */
+"igR-8y-NzM.text" = "Bienvenido a GoEat";
+
+/* Class = "UILabel"; text = "已有帐号"; ObjectID = "nu7-SF-DIS"; */
+"nu7-SF-DIS.text" = "Ya tiene la cuenta ";
+
+/* Class = "UIButton"; normalTitle = "登陆"; ObjectID = "qJs-V5-MDe"; */
+"qJs-V5-MDe.normalTitle" = "Inicio sesión";
+
+/* Class = "UILabel"; text = "欢迎注册g.eat"; ObjectID = "qub-9C-p60"; */
+"qub-9C-p60.text" = "Bienvenido a GoEat";
+
+/* Class = "UITextField"; placeholder = "密码"; ObjectID = "sLk-sJ-fdn"; */
+"sLk-sJ-fdn.placeholder" = "Contraseña";
+
+/* Class = "UIButton"; normalTitle = "登陆"; ObjectID = "sxw-ZP-mb3"; */
+"sxw-ZP-mb3.normalTitle" = "Inicio sesión";

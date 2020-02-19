@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  G-eatClient
+
+  Created by JS_Coder on 07/07/2019.
+  Copyright © 2019 GoEat. All rights reserved.
+*/
+"NSCameraUsageDescription" = "我们将会使用您的摄像头, 用来拍摄并上传你的头像";
+"NSLocationWhenInUseUsageDescription" = "我们将会使用你的地理位置, 用来创建您的收货地址";
+"NSMicrophoneUsageDescription" = "我们将需要使用您的麦克风, 用来便捷搜索功能";
+"NSPhotoLibraryUsageDescription" = "我们将需要访问你的相册, 进行上传您的头像";
+"NSPhotoLibraryAddUsageDescription" = "我们将需要访问你的相册, 进行上传您的头像";
+"CFBundleDisplayName" = "Asiall";
